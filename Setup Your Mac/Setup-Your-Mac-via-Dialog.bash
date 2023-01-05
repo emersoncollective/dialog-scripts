@@ -68,6 +68,17 @@ if [[ ! -f "${scriptLog}" ]]; then
     touch "${scriptLog}"
 fi
 
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+# Determine Processor Type
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+
+cpu=$(sysctl -a | grep brand | awk '{print $2}')
+echo "CPU vendor is $cpu"
+if [[ $cpu = "Apple"  ]]; then
+    type="arm"
+else
+    type="intel"
+fi
 
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
@@ -1280,6 +1291,17 @@ policy_array=('
             "trigger_list": [
                 {
                     "trigger": "code42_${type}",
+                    "path": ""
+                }
+            ]
+        },        
+        {
+            "listitem": "Install Slack",
+            "icon": "a1ecbe1a4418113177cc061def4996d20a01a1e9b9adf9517899fcca31f3c026",
+            "progresstext": "Install Slack Messaging System",
+            "trigger_list": [
+                {
+                    "trigger": "install_slack",
                     "path": ""
                 }
             ]
