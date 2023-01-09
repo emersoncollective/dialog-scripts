@@ -79,7 +79,7 @@ if [[ $cpu = "Apple"  ]]; then
 else
     type="intel"
 fi
-
+echo "CPU Type is $type"
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Pre-flight Check: Client-side Script Logging Function
@@ -1279,7 +1279,7 @@ policy_array=('
             "progresstext": "Ensure that Collective data is accessed by approved devices.",
             "trigger_list": [
                 {
-                    "trigger": "okta_cba_${type}",
+                    "trigger": "'okta_cba_${type}'",
                     "path": ""
                 }
             ]
@@ -1290,7 +1290,7 @@ policy_array=('
             "progresstext": "Install The Computer Backup System",
             "trigger_list": [
                 {
-                    "trigger": "code42_${type}",
+                    "trigger": "'code42_${type}'",
                     "path": ""
                 }
             ]
@@ -1326,7 +1326,7 @@ policy_array=('
                     "path": ""
                 }
             ]
-        },        
+        },             
         {
             "listitem": "Install Google Drive",
             "icon": "a6954a50da661bd785407e23f83c6a1ac27006180eae1813086e64f4d6e65dcc",
