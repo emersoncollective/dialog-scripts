@@ -1,16 +1,19 @@
 # Setup Your Mac via swiftDialog
 
-> **Setup Your Mac** (1.7.0) benefits from the latest `swiftDialog 2.1` features and easily allows Mac Admins to specify a minimum OS version to help mitigate zero-day attacks
+> With the implementation of a recent feature request, Setup Your Mac (1.6.0) introduces additional policy validation options to help ensure critical enterprise applications are both installed and their related services are running.
 
-[<img alt="[Setup Your Mac (1.7.0)" src="images/Setup_Your_Mac_1.7.0.png" />](https://snelson.us/sym)
+![Setup Your Mac (1.6.0)](images/Setup%20Your%20Mac%201.6.0%20SYM%20dialog%20success.png "Setup Your Mac (1.6.0)")
+
+![Setup Your Mac (1.5.0)](images/Setup_Your_Mac_1.5.0.png "Setup Your Mac (1.5.0)")
 
 ## Introduction
 
-Apple's Automated Device Enrollment helps streamline Mobile Device Management (MDM) enrollment and device Supervision during activation, enabling IT to manage enterprise devices with "zero touch."
+Apple's Automated Device Enrollment helps to streamline Mobile Device Management (MDM) enrollment and device Supervision during activation, enabling IT to manage enterprise devices with "zero touch."
 
-**Setup Your Mac** aims to simplify initial device configuration by leveraging `swiftDialog` and Jamf Pro Policy Custom Events to allow end-users to self-complete Mac setup **post-enrollment**.
+**Setup Your Mac** aims to simplify initial device configuration by leveraging `swiftDialog` and Jamf Pro Policy Custom Events to allow end-users to self-complete Mac setup **post-enrollment** via Jamf Pro’s Self Service.
 
-[Continue reading …](https://snelson.us/sym)
+
+[Continue reading …](https://snelson.us/setup-your-mac)
 
 ## Script
 - [Setup-Your-Mac-via-Dialog.bash](Setup-Your-Mac-via-Dialog.bash)
