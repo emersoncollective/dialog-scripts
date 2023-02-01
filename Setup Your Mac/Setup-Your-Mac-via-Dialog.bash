@@ -4,15 +4,20 @@
 #
 # Setup Your Mac via swiftDialog
 <<<<<<< HEAD
+<<<<<<< HEAD
 # https://snelson.us/sym
 =======
 # https://snelson.us/setup-your-mac/
 >>>>>>> 0bc3777 (oops I had removed it)
+=======
+# https://snelson.us/setup-your-mac/
+>>>>>>> 6a67ebc (bad merge, reverting)
 #
 ####################################################################################################
 #
 # HISTORY
 #
+<<<<<<< HEAD
 <<<<<<< HEAD
 #   Version 1.8.0, 06-Mar-2023, Dan K. Snelson (@dan-snelson)
 #   - Introduces "Configurations" (thanks, @drtaru!)
@@ -21,11 +26,14 @@
 #       - Complete
 #   - Play video at Welcome dialog (Issue No. 36)
 =======
+=======
+>>>>>>> 6a67ebc (bad merge, reverting)
 #   Version 1.5.1, 07-Dec-2022, Dan K. Snelson (@dan-snelson)
 #   - Updates to "Pre-flight Checks"
 #     - Moved section to start of script
 #     - Added additional check for Setup Assistant
 #       (for Mac Admins using an "Enrollment Complete" trigger)
+<<<<<<< HEAD
 >>>>>>> 0bc3777 (oops I had removed it)
 #
 ####################################################################################################
@@ -65,6 +73,11 @@ loggedInUser=$( echo "show State:/Users/ConsoleUser" | scutil | awk '/Name :/ { 
 reconOptions=""
 exitCode="0"
 
+=======
+#
+####################################################################################################
+
+>>>>>>> 6a67ebc (bad merge, reverting)
 
 
 ####################################################################################################
@@ -77,12 +90,15 @@ exitCode="0"
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Pre-flight Check: Client-side Logging
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
 if [[ ! -f "${scriptLog}" ]]; then
     touch "${scriptLog}"
 =======
+=======
+>>>>>>> 6a67ebc (bad merge, reverting)
 # Confirm script is running as root
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
@@ -106,6 +122,7 @@ fi
 
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+<<<<<<< HEAD
 <<<<<<< HEAD
 # Pre-flight Check: Client-side Script Logging Function
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
@@ -134,6 +151,8 @@ if [[ $(id -u) -ne 0 ]]; then
     exit 1
 fi
 =======
+=======
+>>>>>>> 6a67ebc (bad merge, reverting)
 # Ensure computer does not go to sleep while running this script (thanks, @grahampugh!)
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
@@ -164,7 +183,10 @@ while pgrep -q -x "Setup Assistant"; do
 done
 
 echo "Setup Assistant is no longer running; proceeding …"
+<<<<<<< HEAD
 >>>>>>> 0bc3777 (oops I had removed it)
+=======
+>>>>>>> 6a67ebc (bad merge, reverting)
 
 
 
@@ -236,6 +258,7 @@ until pgrep -q -x "Finder" && pgrep -q -x "Dock"; do
 done
 
 echo "Finder & Dock are running; proceeding …"
+<<<<<<< HEAD
 >>>>>>> 0bc3777 (oops I had removed it)
 
 
@@ -247,6 +270,8 @@ echo "Finder & Dock are running; proceeding …"
 
 updateScriptLog "Pre-flight Check: Caffeinating this script (PID: $$)"
 caffeinate -dimsu -w $$ &
+=======
+>>>>>>> 6a67ebc (bad merge, reverting)
 
 
 
@@ -277,6 +302,7 @@ fi
 
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Pre-flight Check: Temporarily disable `jamf` binary check-in (thanks, @mactroll and @cube!)
@@ -376,10 +402,16 @@ updateScriptLog "Pre-flight Check: Complete"
 #
 # Variables
 >>>>>>> 0bc3777 (oops I had removed it)
+=======
+####################################################################################################
+#
+# Variables
+>>>>>>> 6a67ebc (bad merge, reverting)
 #
 ####################################################################################################
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+<<<<<<< HEAD
 <<<<<<< HEAD
 # infobox-related variables
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
@@ -393,6 +425,11 @@ dialogVersion=$( /usr/local/bin/dialog --version )
 # Script Version, Jamf Pro Script Parameters and default Exit Code
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
+=======
+# Script Version, Jamf Pro Script Parameters and default Exit Code
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+
+>>>>>>> 6a67ebc (bad merge, reverting)
 scriptVersion="1.5.1"
 export PATH=/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin/
 scriptLog="${4:-"/var/tmp/org.ec.log"}"
@@ -401,7 +438,10 @@ welcomeDialog="${6:-"true"}"                       # [ true (default) | false ]
 completionActionOption="${7:-"Restart Attended"}"  # [ wait | sleep (with seconds) | Shut Down | Shut Down Attended | Shut Down Confirm | Restart | Restart Attended (default) | Restart Confirm | Log Out | Log Out Attended | Log Out Confirm ]
 reconOptions=""                                    # Initialize dynamic recon options; built based on user's input at Welcome dialog
 exitCode="0"
+<<<<<<< HEAD
 >>>>>>> 0bc3777 (oops I had removed it)
+=======
+>>>>>>> 6a67ebc (bad merge, reverting)
 
 org_name="$8"
 if [[ $org_name = "Emerson Collective" ]]; then
@@ -433,6 +473,7 @@ fi
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 case ${debugMode} in
     "true"      ) scriptVersion="DEBUG MODE | Dialog: v${dialogVersion} • Setup Your Mac: v${scriptVersion}" ;;
     "verbose"   ) scriptVersion="VERBOSE DEBUG MODE | Dialog: v${dialogVersion} • Setup Your Mac: v${scriptVersion}" ;;
@@ -442,6 +483,11 @@ if [[ "${debugMode}" == "true" ]]; then
     scriptVersion="DEBUG MODE | Dialog: v$(dialog --version) • Setup Your Mac: v${scriptVersion}"
 fi
 >>>>>>> 0bc3777 (oops I had removed it)
+=======
+if [[ "${debugMode}" == "true" ]]; then
+    scriptVersion="DEBUG MODE | Dialog: v$(dialog --version) • Setup Your Mac: v${scriptVersion}"
+fi
+>>>>>>> 6a67ebc (bad merge, reverting)
 
 
 
@@ -450,11 +496,15 @@ fi
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 dialogApp="/Library/Application\ Support/Dialog/Dialog.app/Contents/MacOS/Dialog"
 dialogBinary="/usr/local/bin/dialog"
 =======
 dialogApp="/usr/local/bin/dialog"
 >>>>>>> 0bc3777 (oops I had removed it)
+=======
+dialogApp="/usr/local/bin/dialog"
+>>>>>>> 6a67ebc (bad merge, reverting)
 welcomeCommandFile=$( mktemp /var/tmp/dialogWelcome.XXX )
 setupYourMacCommandFile=$( mktemp /var/tmp/dialogSetupYourMac.XXX )
 failureCommandFile=$( mktemp /var/tmp/dialogFailure.XXX )
@@ -479,6 +529,7 @@ loggedInUserFirstname=$( echo "$loggedInUserFullname" | cut -d " " -f 1 )
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 welcomeTitle="Welcome to your new Mac, ${loggedInUserFirstname}!"
 welcomeMessage="Please enter your Mac's **Asset Tag**, select your preferred **Configuration** then click **Continue** to start applying settings to your new Mac.  \n\nOnce completed, the **Wait** button will be enabled and you'll be able to review the results before restarting your Mac.  \n\nIf you need assistance, please contact the Help Desk: +1 (801) 555-1212.  \n\n---  \n\n#### Configurations  \n- **Required:** Minimum organization apps  \n- **Recommended:** Required apps and Microsoft Office  \n- **Complete:** Recommended apps, Adobe Acrobat Reader and Google Chrome"
 welcomeBannerImage="https://img.freepik.com/free-photo/yellow-watercolor-paper_95678-446.jpg"
@@ -489,6 +540,10 @@ welcomeVideoID="vimeoid=803933536"
 welcomeTitle="Welcome to the Collective, ${loggedInUserFirstname}!"
 welcomeMessage="To begin, please select 'OK' and the computer setup process will begin. If you need assistance, please email ithelp@emersoncollective.com. The process will begin in 5 minutes automatically"
 >>>>>>> 0bc3777 (oops I had removed it)
+=======
+welcomeTitle="Welcome to the Collective, ${loggedInUserFirstname}!"
+welcomeMessage="To begin, please select 'OK' and the computer setup process will begin. If you need assistance, please email ithelp@emersoncollective.com. The process will begin in 5 minutes automatically"
+>>>>>>> 6a67ebc (bad merge, reverting)
 
 # Welcome icon set to either light or dark, based on user's Apperance setting (thanks, @mm2270!)
 appleInterfaceStyle=$( /usr/bin/defaults read /Users/"${loggedInUser}"/Library/Preferences/.GlobalPreferences.plist AppleInterfaceStyle 2>&1 )
@@ -500,6 +555,7 @@ fi
 
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # "Welcome" Video Settings and Features
@@ -597,6 +653,8 @@ welcomeJSON='{
     "height" : "725"
 }'
 =======
+=======
+>>>>>>> 6a67ebc (bad merge, reverting)
 ## # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 ## "Welcome" JSON (thanks, @bartreardon!)
 ## # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
@@ -693,7 +751,10 @@ welcomeJSON='{
 #   ],
 #   "height" : "635"
 #}'
+<<<<<<< HEAD
 >>>>>>> 0bc3777 (oops I had removed it)
+=======
+>>>>>>> 6a67ebc (bad merge, reverting)
 
 
 
@@ -710,6 +771,7 @@ welcomeJSON='{
 title="Setting up ${loggedInUserFirstname}'s Mac"
 message="Please wait while the following apps are installed …"
 <<<<<<< HEAD
+<<<<<<< HEAD
 bannerImage="https://img.freepik.com/free-photo/yellow-watercolor-paper_95678-446.jpg"
 bannerText="Setting up ${loggedInUserFirstname}'s Mac"
 helpmessage="If you need assistance, please contact the Global Service Department:  \n- **Telephone:** +1 (801) 555-1212  \n- **Email:** support@domain.org  \n- **Knowledge Base Article:** KB0057050  \n\n**Computer Information:** \n\n- **Operating System:**  ${macOSproductVersion} ($macOSbuildVersion)  \n- **Serial Number:** ${serialNumber}  \n- **Dialog:** ${dialogVersion}  \n- **Started:** ${timestamp}"
@@ -724,6 +786,9 @@ fi
 =======
 overlayicon=$( defaults read /Library/Preferences/com.jamfsoftware.jamf.plist self_service_app_path )
 >>>>>>> 0bc3777 (oops I had removed it)
+=======
+overlayicon=$( defaults read /Library/Preferences/com.jamfsoftware.jamf.plist self_service_app_path )
+>>>>>>> 6a67ebc (bad merge, reverting)
 
 # Set initial icon based on whether the Mac is a desktop or laptop
 if system_profiler SPPowerDataType | grep -q "Battery Power"; then
@@ -739,13 +804,17 @@ fi
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 dialogSetupYourMacCMD="$dialogBinary \
 --bannerimage \"$bannerImage\" \
 --bannertext \"$bannerText\" \
+=======
+dialogSetupYourMacCMD="$dialogApp \
+>>>>>>> 6a67ebc (bad merge, reverting)
 --title \"$title\" \
 --message \"$message\" \
---helpmessage \"$helpmessage\" \
 --icon \"$icon\" \
+<<<<<<< HEAD
 --infobox \"${infobox}\" \
 =======
 dialogSetupYourMacCMD="$dialogApp \
@@ -753,11 +822,14 @@ dialogSetupYourMacCMD="$dialogApp \
 --message \"$message\" \
 --icon \"$icon\" \
 >>>>>>> 0bc3777 (oops I had removed it)
+=======
+>>>>>>> 6a67ebc (bad merge, reverting)
 --progress \
 --progresstext \"Initializing configuration …\" \
 --button1text \"Wait\" \
 --button1disabled \
 --infotext \"$scriptVersion\" \
+<<<<<<< HEAD
 <<<<<<< HEAD
 --titlefont 'shadow=true, size=40' \
 --messagefont 'size=14' \
@@ -767,6 +839,11 @@ dialogSetupYourMacCMD="$dialogApp \
 --messagefont 'size=14' \
 --height '70%' \
 >>>>>>> 0bc3777 (oops I had removed it)
+=======
+--titlefont 'size=28' \
+--messagefont 'size=14' \
+--height '70%' \
+>>>>>>> 6a67ebc (bad merge, reverting)
 --position 'centre' \
 --overlayicon \"$overlayicon\" \
 --quitkey k \
@@ -1490,10 +1567,14 @@ failureIcon="SF=xmark.circle.fill,weight=bold,colour1=#BB1717,colour2=#F31F1F"
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 dialogFailureCMD="$dialogBinary \
 =======
 dialogFailureCMD="$dialogApp \
 >>>>>>> 0bc3777 (oops I had removed it)
+=======
+dialogFailureCMD="$dialogApp \
+>>>>>>> 6a67ebc (bad merge, reverting)
 --moveable \
 --title \"$failureTitle\" \
 --message \"$failureMessage\" \
@@ -1708,9 +1789,12 @@ function dialogUpdateFailure(){
 function finalise(){
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     # Output Line Number in `verbose` Debug Mode
     if [[ "${debugMode}" == "verbose" ]]; then updateScriptLog "# # # SETUP YOUR MAC VERBOSE DEBUG MODE: Line No. ${LINENO} # # #" ; fi
 
+=======
+>>>>>>> 6a67ebc (bad merge, reverting)
     if [[ "${jamfProPolicyTriggerFailure}" == "failed" ]]; then
 
         killProcess "caffeinate"
@@ -1726,10 +1810,14 @@ function finalise(){
         dialogUpdateSetupYourMac "button1text: Continue …"
         dialogUpdateSetupYourMac "button1: enable"
 <<<<<<< HEAD
+<<<<<<< HEAD
         dialogUpdateSetupYourMac "progress: reset"
 =======
         dialogUpdateSetupYourMac "progress: complete"
 >>>>>>> 0bc3777 (oops I had removed it)
+=======
+        dialogUpdateSetupYourMac "progress: complete"
+>>>>>>> 6a67ebc (bad merge, reverting)
 
         # Wait for user-acknowledgment due to detected failure
         wait
@@ -1814,12 +1902,15 @@ function get_json_value_welcomeDialog () {
 function run_jamf_trigger() {
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     # Output Line Number in `verbose` Debug Mode
     if [[ "${debugMode}" == "verbose" ]]; then updateScriptLog "# # # SETUP YOUR MAC VERBOSE DEBUG MODE: Line No. ${LINENO} # # #" ; fi
 
+=======
+>>>>>>> 6a67ebc (bad merge, reverting)
     trigger="$1"
 
-    if [[ "${debugMode}" == "true" ]] || [[ "${debugMode}" == "verbose" ]] ; then
+    if [[ "${debugMode}" == "true" ]]; then
 
         updateScriptLog "SETUP YOUR MAC DIALOG: DEBUG MODE: TRIGGER: $jamfBinary policy -trigger $trigger"
 =======
@@ -1858,6 +1949,7 @@ function run_jamf_trigger() {
 
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+<<<<<<< HEAD
 <<<<<<< HEAD
 # Confirm Policy Execution
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
@@ -2168,6 +2260,8 @@ function validatePolicyResult() {
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 =======
 >>>>>>> 0bc3777 (oops I had removed it)
+=======
+>>>>>>> 6a67ebc (bad merge, reverting)
 # Kill a specified process (thanks, @grahampugh!)
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
@@ -2194,6 +2288,7 @@ function killProcess() {
 function completionAction() {
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     # Output Line Number in `verbose` Debug Mode
     if [[ "${debugMode}" == "verbose" ]]; then updateScriptLog "# # # SETUP YOUR MAC VERBOSE DEBUG MODE: Line No. ${LINENO} # # #" ; fi
 
@@ -2201,6 +2296,9 @@ function completionAction() {
 =======
     if [[ "${debugMode}" == "true" ]]; then
 >>>>>>> 0bc3777 (oops I had removed it)
+=======
+    if [[ "${debugMode}" == "true" ]]; then
+>>>>>>> 6a67ebc (bad merge, reverting)
 
         # If Debug Mode is enabled, ignore specified `completionActionOption`, display simple dialog box and exit
         runAsUser osascript -e 'display dialog "Setup Your Mac is operating in Debug Mode.\r\r• completionActionOption == '"'${completionActionOption}'"'\r\r" with title "Setup Your Mac: Debug Mode" buttons {"Close"} with icon note'
@@ -2217,12 +2315,17 @@ function completionAction() {
                 killProcess "Self Service"
                 # runAsUser osascript -e 'tell app "System Events" to shut down'
 <<<<<<< HEAD
+<<<<<<< HEAD
                 # sleep 5 && runAsUser osascript -e 'tell app "System Events" to shut down' &
                 sleep 5 && shutdown -h now &
 =======
                 sleep 5 && runAsUser osascript -e 'tell app "System Events" to shut down' &
                 # shutdown -h +1 &
 >>>>>>> 0bc3777 (oops I had removed it)
+=======
+                sleep 5 && runAsUser osascript -e 'tell app "System Events" to shut down' &
+                # shutdown -h +1 &
+>>>>>>> 6a67ebc (bad merge, reverting)
                 ;;
 
             "Shut Down Attended" )
@@ -2231,12 +2334,17 @@ function completionAction() {
                 wait
                 # runAsUser osascript -e 'tell app "System Events" to shut down'
 <<<<<<< HEAD
+<<<<<<< HEAD
                 # sleep 5 && runAsUser osascript -e 'tell app "System Events" to shut down' &
                 sleep 5 && shutdown -h now &
 =======
                 sleep 5 && runAsUser osascript -e 'tell app "System Events" to shut down' &
                 # shutdown -h +1 &
 >>>>>>> 0bc3777 (oops I had removed it)
+=======
+                sleep 5 && runAsUser osascript -e 'tell app "System Events" to shut down' &
+                # shutdown -h +1 &
+>>>>>>> 6a67ebc (bad merge, reverting)
                 ;;
 
             "Shut Down Confirm" )
@@ -2249,12 +2357,17 @@ function completionAction() {
                 killProcess "Self Service"
                 # runAsUser osascript -e 'tell app "System Events" to restart'
 <<<<<<< HEAD
+<<<<<<< HEAD
                 # sleep 5 && runAsUser osascript -e 'tell app "System Events" to restart' &
                 sleep 5 && shutdown -r now &
 =======
                 sleep 5 && runAsUser osascript -e 'tell app "System Events" to restart' &
                 # shutdown -r +1 &
 >>>>>>> 0bc3777 (oops I had removed it)
+=======
+                sleep 5 && runAsUser osascript -e 'tell app "System Events" to restart' &
+                # shutdown -r +1 &
+>>>>>>> 6a67ebc (bad merge, reverting)
                 ;;
 
             "Restart Attended" )
@@ -2263,12 +2376,17 @@ function completionAction() {
                 wait
                 # runAsUser osascript -e 'tell app "System Events" to restart'
 <<<<<<< HEAD
+<<<<<<< HEAD
                 # sleep 5 && runAsUser osascript -e 'tell app "System Events" to restart' &
                 sleep 5 && shutdown -r now &
 =======
                 sleep 5 && runAsUser osascript -e 'tell app "System Events" to restart' &
                 # shutdown -r +1 &
 >>>>>>> 0bc3777 (oops I had removed it)
+=======
+                sleep 5 && runAsUser osascript -e 'tell app "System Events" to restart' &
+                # shutdown -r +1 &
+>>>>>>> 6a67ebc (bad merge, reverting)
                 ;;
 
             "Restart Confirm" )
@@ -2280,6 +2398,7 @@ function completionAction() {
                 updateScriptLog "Log out sans user interaction"
                 killProcess "Self Service"
 <<<<<<< HEAD
+<<<<<<< HEAD
                 # sleep 5 && runAsUser osascript -e 'tell app "loginwindow" to «event aevtrlgo»'
                 # sleep 5 && runAsUser osascript -e 'tell app "loginwindow" to «event aevtrlgo»' &
                 sleep 5 && launchctl bootout user/"${loggedInUserID}"
@@ -2288,6 +2407,11 @@ function completionAction() {
                 sleep 5 && runAsUser osascript -e 'tell app "loginwindow" to «event aevtrlgo»' &
                 # launchctl bootout user/"${loggedInUserID}"
 >>>>>>> 0bc3777 (oops I had removed it)
+=======
+                # runAsUser osascript -e 'tell app "loginwindow" to «event aevtrlgo»'
+                sleep 5 && runAsUser osascript -e 'tell app "loginwindow" to «event aevtrlgo»' &
+                # launchctl bootout user/"${loggedInUserID}"
+>>>>>>> 6a67ebc (bad merge, reverting)
                 ;;
 
             "Log Out Attended" )
@@ -2295,6 +2419,7 @@ function completionAction() {
                 killProcess "Self Service"
                 wait
 <<<<<<< HEAD
+<<<<<<< HEAD
                 # sleep 5 && runAsUser osascript -e 'tell app "loginwindow" to «event aevtrlgo»'
                 # sleep 5 && runAsUser osascript -e 'tell app "loginwindow" to «event aevtrlgo»' &
                 sleep 5 && launchctl bootout user/"${loggedInUserID}"
@@ -2303,15 +2428,24 @@ function completionAction() {
                 sleep 5 && runAsUser osascript -e 'tell app "loginwindow" to «event aevtrlgo»' &
                 # launchctl bootout user/"${loggedInUserID}"
 >>>>>>> 0bc3777 (oops I had removed it)
+=======
+                # runAsUser osascript -e 'tell app "loginwindow" to «event aevtrlgo»'
+                sleep 5 && runAsUser osascript -e 'tell app "loginwindow" to «event aevtrlgo»' &
+                # launchctl bootout user/"${loggedInUserID}"
+>>>>>>> 6a67ebc (bad merge, reverting)
                 ;;
 
             "Log Out Confirm" )
                 updateScriptLog "Log out, only after macOS time-out or user confirmation"
 <<<<<<< HEAD
+<<<<<<< HEAD
                 sleep 5 && runAsUser osascript -e 'tell app "System Events" to log out'
 =======
                 runAsUser osascript -e 'tell app "System Events" to log out'
 >>>>>>> 0bc3777 (oops I had removed it)
+=======
+                runAsUser osascript -e 'tell app "System Events" to log out'
+>>>>>>> 6a67ebc (bad merge, reverting)
                 ;;
 
             "Sleep"* )
@@ -2351,20 +2485,27 @@ function completionAction() {
 function quitScript() {
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     # Output Line Number in `verbose` Debug Mode
     if [[ "${debugMode}" == "verbose" ]]; then updateScriptLog "# # # SETUP YOUR MAC VERBOSE DEBUG MODE: Line No. ${LINENO} # # #" ; fi
 
     updateScriptLog "QUIT SCRIPT: Exiting …"
+=======
+    updateScriptLog "Exiting …"
+>>>>>>> 6a67ebc (bad merge, reverting)
 
     # Stop `caffeinate` process
     updateScriptLog "QUIT SCRIPT: De-caffeinate …"
     killProcess "caffeinate"
 
+<<<<<<< HEAD
     # Reenable 'jamf' binary check-in
     # Purposely commented-out on 2023-01-26-092705; presumes Mac will be rebooted
     # updateScriptLog "QUIT SCRIPT: Reenable 'jamf' binary check-in"
     # launchctl bootstrap system "${jamflaunchDaemon}"
 
+=======
+>>>>>>> 6a67ebc (bad merge, reverting)
     # Remove welcomeCommandFile
     if [[ -e ${welcomeCommandFile} ]]; then
         updateScriptLog "QUIT SCRIPT: Removing ${welcomeCommandFile} …"
@@ -2461,7 +2602,10 @@ if [[ "${debugMode}" == "true" ]]; then
     updateScriptLog "\n\n###\n# ${scriptVersion}\n###\n"
 else
     updateScriptLog "\n\n###\n# Setup Your Mac (${scriptVersion})\n###\n"
+<<<<<<< HEAD
 >>>>>>> 0bc3777 (oops I had removed it)
+=======
+>>>>>>> 6a67ebc (bad merge, reverting)
 fi
 
 
@@ -2485,7 +2629,10 @@ dialogCheck
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
 if [[ "${debugMode}" == "true" ]]; then
+<<<<<<< HEAD
 >>>>>>> 0bc3777 (oops I had removed it)
+=======
+>>>>>>> 6a67ebc (bad merge, reverting)
     welcomeJSON=${welcomeJSON//blurscreen/moveable}
     dialogSetupYourMacCMD=${dialogSetupYourMacCMD//blurscreen/moveable}
 fi
@@ -2540,7 +2687,10 @@ echo "$welcomeJSON" > "$welcomeCommandFile"
 if [[ "${welcomeDialog}" == "true" ]]; then
 
     welcomeResults=$( ${dialogApp} --jsonfile "$welcomeCommandFile" --json )
+<<<<<<< HEAD
 >>>>>>> 0bc3777 (oops I had removed it)
+=======
+>>>>>>> 6a67ebc (bad merge, reverting)
     if [[ -z "${welcomeResults}" ]]; then
         welcomeReturnCode="2"
     else
@@ -2557,12 +2707,15 @@ if [[ "${welcomeDialog}" == "true" ]]; then
             ###
 
 <<<<<<< HEAD
+<<<<<<< HEAD
             computerName=$(get_json_value_welcomeDialog "$welcomeResults" "Computer Name")
             userName=$(get_json_value_welcomeDialog "$welcomeResults" "User Name")
             assetTag=$(get_json_value_welcomeDialog "$welcomeResults" "Asset Tag")
             symConfiguration=$(get_json_value_welcomeDialog "$welcomeResults" "Configuration" "selectedValue")
             department=$(get_json_value_welcomeDialog "$welcomeResults" "Department" "selectedValue")
 =======
+=======
+>>>>>>> 6a67ebc (bad merge, reverting)
             comment=$(get_json_value_welcomeDialog "$welcomeResults" "Comment")
             computerName=$(get_json_value_welcomeDialog "$welcomeResults" "Computer Name")
             userName=$(get_json_value_welcomeDialog "$welcomeResults" "User Name")
@@ -2570,7 +2723,10 @@ if [[ "${welcomeDialog}" == "true" ]]; then
             department=$(get_json_value_welcomeDialog "$welcomeResults" "Department" "selectedValue")
             selectB=$(get_json_value_welcomeDialog "$welcomeResults" "Select B" "selectedValue")
             selectC=$(get_json_value_welcomeDialog "$welcomeResults" "Select C" "selectedValue")
+<<<<<<< HEAD
 >>>>>>> 0bc3777 (oops I had removed it)
+=======
+>>>>>>> 6a67ebc (bad merge, reverting)
 
 
 
@@ -2578,6 +2734,7 @@ if [[ "${welcomeDialog}" == "true" ]]; then
             # Output the various values from the welcomeResults JSON to the log file
             ###
 
+<<<<<<< HEAD
 <<<<<<< HEAD
             updateScriptLog "WELCOME DIALOG: • Computer Name: $computerName"
             updateScriptLog "WELCOME DIALOG: • User Name: $userName"
@@ -2593,6 +2750,8 @@ if [[ "${welcomeDialog}" == "true" ]]; then
 
             policyJSONConfiguration
 =======
+=======
+>>>>>>> 6a67ebc (bad merge, reverting)
             updateScriptLog "WELCOME DIALOG: • Comment: $comment"
             updateScriptLog "WELCOME DIALOG: • Computer Name: $computerName"
             updateScriptLog "WELCOME DIALOG: • User Name: $userName"
@@ -2600,7 +2759,10 @@ if [[ "${welcomeDialog}" == "true" ]]; then
             updateScriptLog "WELCOME DIALOG: • Department: $department"
             updateScriptLog "WELCOME DIALOG: • Select B: $selectB"
             updateScriptLog "WELCOME DIALOG: • Select C: $selectC"
+<<<<<<< HEAD
 >>>>>>> 0bc3777 (oops I had removed it)
+=======
+>>>>>>> 6a67ebc (bad merge, reverting)
 
 
 
@@ -2623,16 +2785,22 @@ if [[ "${welcomeDialog}" == "true" ]]; then
                 newLocalHostName=${firstEightSerialNumber}-${lastSixMAC}
 
 <<<<<<< HEAD
+<<<<<<< HEAD
                 if [[ "${debugMode}" == "true" ]] || [[ "${debugMode}" == "verbose" ]] ; then
 
                     updateScriptLog "WELCOME DIALOG: DEBUG MODE: Would have renamed computer from: \"${currentComputerName}\" to \"${computerName}\" "
                     updateScriptLog "WELCOME DIALOG: DEBUG MODE: Would have renamed LocalHostName from: \"${currentLocalHostName}\" to \"${newLocalHostName}\" "
 =======
+=======
+>>>>>>> 6a67ebc (bad merge, reverting)
                 if [[ "${debugMode}" == "true" ]]; then
 
                     updateScriptLog "WELCOME DIALOG: DEBUG MODE: Renamed computer from: \"${currentComputerName}\" to \"${computerName}\" "
                     updateScriptLog "WELCOME DIALOG: DEBUG MODE: Renamed LocalHostName from: \"${currentLocalHostName}\" to \"${newLocalHostName}\" "
+<<<<<<< HEAD
 >>>>>>> 0bc3777 (oops I had removed it)
+=======
+>>>>>>> 6a67ebc (bad merge, reverting)
 
                 else
 
@@ -2685,6 +2853,7 @@ if [[ "${welcomeDialog}" == "true" ]]; then
             eval "${dialogSetupYourMacCMD[*]}" & sleep 0.3
             dialogSetupYourMacProcessID=$!
 <<<<<<< HEAD
+<<<<<<< HEAD
             until pgrep -q -x "Dialog"; do
                 # Output Line Number in `verbose` Debug Mode
                 if [[ "${debugMode}" == "verbose" ]]; then updateScriptLog "# # # SETUP YOUR MAC VERBOSE DEBUG MODE: Line No. ${LINENO} # # #" ; fi
@@ -2695,6 +2864,8 @@ if [[ "${welcomeDialog}" == "true" ]]; then
             runAsUser osascript -e 'tell application "Dialog" to activate'
 =======
 >>>>>>> 0bc3777 (oops I had removed it)
+=======
+>>>>>>> 6a67ebc (bad merge, reverting)
             ;;
 
         2)  # Process exit code 2 scenario here
@@ -2722,6 +2893,7 @@ if [[ "${welcomeDialog}" == "true" ]]; then
     esac
 
 else
+<<<<<<< HEAD
 
     ###
 <<<<<<< HEAD
@@ -2731,6 +2903,8 @@ else
     policyJSONConfiguration
 
 
+=======
+>>>>>>> 6a67ebc (bad merge, reverting)
 
     ###
 =======
@@ -2740,6 +2914,7 @@ else
 
     eval "${dialogSetupYourMacCMD[*]}" & sleep 0.3
     dialogSetupYourMacProcessID=$!
+<<<<<<< HEAD
 <<<<<<< HEAD
     until pgrep -q -x "Dialog"; do
         # Output Line Number in `verbose` Debug Mode
@@ -2751,6 +2926,8 @@ else
     runAsUser osascript -e 'tell application "Dialog" to activate'
 =======
 >>>>>>> 0bc3777 (oops I had removed it)
+=======
+>>>>>>> 6a67ebc (bad merge, reverting)
 
 fi
 
@@ -2761,6 +2938,7 @@ fi
 # Iterate through policyJSON to construct the list for swiftDialog
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
+<<<<<<< HEAD
 # Output Line Number in `verbose` Debug Mode
 if [[ "${debugMode}" == "verbose" ]]; then updateScriptLog "# # # SETUP YOUR MAC VERBOSE DEBUG MODE: Line No. ${LINENO} # # #" ; fi
 
@@ -2773,6 +2951,8 @@ for (( i=0; i<dialog_step_length; i++ )); do
 # Iterate through policy_array JSON to construct the list for swiftDialog
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
+=======
+>>>>>>> 6a67ebc (bad merge, reverting)
 dialog_step_length=$(get_json_value "${policy_array[*]}" "steps.length")
 for (( i=0; i<dialog_step_length; i++ )); do
     listitem=$(get_json_value "${policy_array[*]}" "steps[$i].listitem")
@@ -2785,6 +2965,7 @@ done
 
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+<<<<<<< HEAD
 <<<<<<< HEAD
 # Determine the "progress: increment" value based on the number of steps in policyJSON
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
@@ -2803,6 +2984,13 @@ updateScriptLog "SETUP YOUR MAC DIALOG: Progress Increment Value: ${progressIncr
 progress_total=$(get_json_value "${policy_array[*]}" "steps.length")
 updateScriptLog "SETUP YOUR MAC DIALOG: progress_total=$progress_total"
 >>>>>>> 0bc3777 (oops I had removed it)
+=======
+# Set progress_total to the number of steps in policy_array
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+
+progress_total=$(get_json_value "${policy_array[*]}" "steps.length")
+updateScriptLog "SETUP YOUR MAC DIALOG: progress_total=$progress_total"
+>>>>>>> 6a67ebc (bad merge, reverting)
 
 
 
@@ -2812,11 +3000,14 @@ updateScriptLog "SETUP YOUR MAC DIALOG: progress_total=$progress_total"
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Output Line Number in `verbose` Debug Mode
 if [[ "${debugMode}" == "verbose" ]]; then updateScriptLog "# # # SETUP YOUR MAC VERBOSE DEBUG MODE: Line No. ${LINENO} # # #" ; fi
 
 =======
 >>>>>>> 0bc3777 (oops I had removed it)
+=======
+>>>>>>> 6a67ebc (bad merge, reverting)
 list_item_string=${list_item_array[*]/%/,}
 dialogUpdateSetupYourMac "list: ${list_item_string%?}"
 for (( i=0; i<dialog_step_length; i++ )); do
@@ -2831,6 +3022,7 @@ dialogUpdateSetupYourMac "list: show"
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Output Line Number in `verbose` Debug Mode
 if [[ "${debugMode}" == "verbose" ]]; then updateScriptLog "# # # SETUP YOUR MAC VERBOSE DEBUG MODE: Line No. ${LINENO} # # #" ; fi
 
@@ -2840,6 +3032,10 @@ dialogUpdateSetupYourMac "progress: 1"
 progress_index=0
 dialogUpdateSetupYourMac "progress: $progress_index"
 >>>>>>> 0bc3777 (oops I had removed it)
+=======
+progress_index=0
+dialogUpdateSetupYourMac "progress: $progress_index"
+>>>>>>> 6a67ebc (bad merge, reverting)
 
 
 
@@ -2848,16 +3044,20 @@ dialogUpdateSetupYourMac "progress: $progress_index"
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Output Line Number in `verbose` Debug Mode
 if [[ "${debugMode}" == "verbose" ]]; then updateScriptLog "# # # SETUP YOUR MAC VERBOSE DEBUG MODE: Line No. ${LINENO} # # #" ; fi
 
 =======
 >>>>>>> 0bc3777 (oops I had removed it)
+=======
+>>>>>>> 6a67ebc (bad merge, reverting)
 dialogUpdateWelcome "quit:"
 
 
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+<<<<<<< HEAD
 <<<<<<< HEAD
 # Update Setup Your Mac's infobox
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
@@ -2880,10 +3080,14 @@ dialogUpdateSetupYourMac "infobox: ${infobox}"
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # This for loop will iterate over each distinct step in the policyJSON
+=======
+# This for loop will iterate over each distinct step in the policy_array array
+>>>>>>> 6a67ebc (bad merge, reverting)
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
 for (( i=0; i<dialog_step_length; i++ )); do 
 
+<<<<<<< HEAD
     # Output Line Number in `verbose` Debug Mode
     if [[ "${debugMode}" == "verbose" ]]; then updateScriptLog "# # # SETUP YOUR MAC VERBOSE DEBUG MODE: Line No. ${LINENO} # # #" ; fi
 
@@ -2936,6 +3140,8 @@ for (( i=0; i<dialog_step_length; i++ )); do
 
 for (( i=0; i<dialog_step_length; i++ )); do
 
+=======
+>>>>>>> 6a67ebc (bad merge, reverting)
     # Increment the progress bar
     dialogUpdateSetupYourMac "progress: $(( i * ( 100 / progress_total ) ))"
 
@@ -2980,7 +3186,10 @@ for (( i=0; i<dialog_step_length; i++ )); do
         exitCode="1"
         jamfProPolicyPolicyNameFailures+="• $listitem  \n"
     fi
+<<<<<<< HEAD
 >>>>>>> 0bc3777 (oops I had removed it)
+=======
+>>>>>>> 6a67ebc (bad merge, reverting)
 
 done
 
@@ -2991,6 +3200,7 @@ done
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Output Line Number in `verbose` Debug Mode
 if [[ "${debugMode}" == "verbose" ]]; then updateScriptLog "# # # SETUP YOUR MAC VERBOSE DEBUG MODE: Line No. ${LINENO} # # #" ; fi
 
@@ -2998,3 +3208,6 @@ finalise
 =======
 finalise
 >>>>>>> 0bc3777 (oops I had removed it)
+=======
+finalise
+>>>>>>> 6a67ebc (bad merge, reverting)
