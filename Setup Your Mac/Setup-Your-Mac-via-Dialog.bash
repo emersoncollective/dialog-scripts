@@ -1713,7 +1713,7 @@ policy_array=('
             "trigger_list": [
                 {
                     "trigger": "'code42_${type}'",
-                    "validation": "Remote"
+                    "validation": "/Applications/Code42.app/Contents/Info.plist"
                 }
             ]
 },
@@ -1724,8 +1724,7 @@ policy_array=('
             "trigger_list": [
                 {
                     "trigger": "install_crowdstrike",
-                    "validation": "Remote"
-                }
+                    "validation": "/Applications/Falcon.app/Contents/Info.plist"                }
             ]
         },        {
             "listitem": "Enable Filevault 2",
