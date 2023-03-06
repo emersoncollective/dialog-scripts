@@ -1,0 +1,1101 @@
+2023-02-09 14:04:11 - *** Created log file via script ***
+2023-02-09 14:04:11 - 
+
+###
+# DEBUG MODE | Dialog: v2.0.1.3814 • Setup Your Mac: v1.7.0
+###
+
+2023-02-09 14:04:11 - swiftDialog version 2.0.1.3814 found; proceeding...
+2023-02-09 14:04:12 - SETUP YOUR MAC DIALOG: Total Number of Steps: 14
+2023-02-09 14:04:12 - SETUP YOUR MAC DIALOG: Progress Increment Value: 7
+2023-02-09 14:04:12 - SETUP YOUR MAC DIALOG: list: Rosetta, Code42, Crowdstrike Falcon, Enable Filevault 2, Microsoft Office 365, Zoom, Google Chrome, Slack, Google Drive, Conditional Access Tool, Crowdstrike Running Validation, Code42 Running Validation, Re-name Computer, Computer Inventory
+2023-02-09 14:04:12 - SETUP YOUR MAC DIALOG: listitem: index: 0, icon: https://ics.services.jamfcloud.com/icon/hash_8bac19160fabb0c8e7bac97b37b51d2ac8f38b7100b6357642d9505645d37b52, status: pending, statustext: Pending …
+2023-02-09 14:04:12 - SETUP YOUR MAC DIALOG: listitem: index: 1, icon: https://ics.services.jamfcloud.com/icon/hash_c6eea7e3663ad37c248dc6881ed97498048f502da8a427caefaf6d31963f3681, status: pending, statustext: Pending …
+2023-02-09 14:04:12 - SETUP YOUR MAC DIALOG: listitem: index: 2, icon: https://ics.services.jamfcloud.com/icon/hash_5dbbf8eebbecb20ac443f958bfb3aa9a44ed23ce4f49005a12b29a8f33522c8b, status: pending, statustext: Pending …
+2023-02-09 14:04:12 - SETUP YOUR MAC DIALOG: listitem: index: 3, icon: https://ics.services.jamfcloud.com/icon/hash_90958d0e1f8f8287a86a1198d21cded84eeea44886df2b3357d909fe2e6f1296, status: pending, statustext: Pending …
+2023-02-09 14:04:12 - SETUP YOUR MAC DIALOG: listitem: index: 4, icon: https://ics.services.jamfcloud.com/icon/hash_f9ba35bd55488783456d64ec73372f029560531ca10dfa0e8154a46d7732b913, status: pending, statustext: Pending …
+2023-02-09 14:04:12 - SETUP YOUR MAC DIALOG: listitem: index: 5, icon: https://ics.services.jamfcloud.com/icon/hash_be66420495a3f2f1981a49a0e0ad31783e9a789e835b4196af60554bf4c115ac, status: pending, statustext: Pending …
+2023-02-09 14:04:12 - SETUP YOUR MAC DIALOG: listitem: index: 6, icon: https://ics.services.jamfcloud.com/icon/hash_12d3d198f40ab2ac237cff3b5cb05b09f7f26966d6dffba780e4d4e5325cc701, status: pending, statustext: Pending …
+2023-02-09 14:04:12 - SETUP YOUR MAC DIALOG: listitem: index: 7, icon: https://ics.services.jamfcloud.com/icon/hash_a1ecbe1a4418113177cc061def4996d20a01a1e9b9adf9517899fcca31f3c026, status: pending, statustext: Pending …
+2023-02-09 14:04:12 - SETUP YOUR MAC DIALOG: listitem: index: 8, icon: https://ics.services.jamfcloud.com/icon/hash_a6954a50da661bd785407e23f83c6a1ac27006180eae1813086e64f4d6e65dcc, status: pending, statustext: Pending …
+2023-02-09 14:04:12 - SETUP YOUR MAC DIALOG: listitem: index: 9, icon: https://ics.services.jamfcloud.com/icon/hash_7a97c3926c07d26c111a1f5c3d11fcaeb8471f6046e7b289d67bac74669f916a, status: pending, statustext: Pending …
+2023-02-09 14:04:12 - SETUP YOUR MAC DIALOG: listitem: index: 10, icon: https://ics.services.jamfcloud.com/icon/hash_5dbbf8eebbecb20ac443f958bfb3aa9a44ed23ce4f49005a12b29a8f33522c8b, status: pending, statustext: Pending …
+2023-02-09 14:04:12 - SETUP YOUR MAC DIALOG: listitem: index: 11, icon: https://ics.services.jamfcloud.com/icon/hash_c6eea7e3663ad37c248dc6881ed97498048f502da8a427caefaf6d31963f3681, status: pending, statustext: Pending …
+2023-02-09 14:04:12 - SETUP YOUR MAC DIALOG: listitem: index: 12, icon: https://ics.services.jamfcloud.com/icon/hash_90958d0e1f8f8287a86a1198d21cded84eeea44886df2b3357d909fe2e6f1296, status: pending, statustext: Pending …
+2023-02-09 14:04:12 - SETUP YOUR MAC DIALOG: listitem: index: 13, icon: https://ics.services.jamfcloud.com/icon/hash_90958d0e1f8f8287a86a1198d21cded84eeea44886df2b3357d909fe2e6f1296, status: pending, statustext: Pending …
+2023-02-09 14:04:12 - SETUP YOUR MAC DIALOG: list: show
+2023-02-09 14:04:12 - SETUP YOUR MAC DIALOG: Initial progress bar
+2023-02-09 14:04:12 - SETUP YOUR MAC DIALOG: progress: 1
+2023-02-09 14:04:12 - WELCOME DIALOG: quit:
+2023-02-09 14:04:12 - SETUP YOUR MAC DIALOG: infobox: 
+2023-02-09 14:04:13 - 
+
+# # #
+# SETUP YOUR MAC DIALOG: policy_array > listitem: Rosetta
+# # #
+
+2023-02-09 14:04:13 - SETUP YOUR MAC DIALOG: listitem: index: 0, status: wait, statustext: Installing …, 
+2023-02-09 14:04:13 - SETUP YOUR MAC DIALOG: icon: https://ics.services.jamfcloud.com/icon/hash_8bac19160fabb0c8e7bac97b37b51d2ac8f38b7100b6357642d9505645d37b52
+2023-02-09 14:04:13 - SETUP YOUR MAC DIALOG: progresstext: Rosetta enables a Mac with Apple silicon to use apps built for a Mac with an Intel processor.
+2023-02-09 14:04:13 - SETUP YOUR MAC DIALOG: Skipping Policy Execution due to 'Local' validation
+2023-02-09 14:04:13 - SETUP YOUR MAC DIALOG: Validate Policy Result: 'install_rosetta' 'Local'
+2023-02-09 14:04:13 - SETUP YOUR MAC DIALOG: Locally Validate Policy Result: Rosetta 2 … 
+2023-02-09 14:04:13 - SETUP YOUR MAC DIALOG: listitem: index: 0, status: wait, statustext: Checking …
+2023-02-09 14:04:13 - SETUP YOUR MAC DIALOG: Locally Validate Policy Result: Rosetta 2 is installed
+2023-02-09 14:04:13 - SETUP YOUR MAC DIALOG: listitem: index: 0, status: success, statustext: Running
+2023-02-09 14:04:13 - SETUP YOUR MAC DIALOG: progress: increment 7
+2023-02-09 14:04:13 - SETUP YOUR MAC DIALOG: Elapsed Time: 0h:0m:1s
+2023-02-09 14:04:13 - 
+
+# # #
+# SETUP YOUR MAC DIALOG: policy_array > listitem: Code42
+# # #
+
+2023-02-09 14:04:13 - SETUP YOUR MAC DIALOG: listitem: index: 1, status: wait, statustext: Installing …, 
+2023-02-09 14:04:13 - SETUP YOUR MAC DIALOG: icon: https://ics.services.jamfcloud.com/icon/hash_c6eea7e3663ad37c248dc6881ed97498048f502da8a427caefaf6d31963f3681
+2023-02-09 14:04:13 - SETUP YOUR MAC DIALOG: progresstext: Install the EC Data Protection and Backup Software
+2023-02-09 14:04:13 - SETUP YOUR MAC DIALOG: Confirm Policy Execution: 'code42_arm' '/Applications/Code42.app/Contents/Info.plist'
+2023-02-09 14:04:13 - SETUP YOUR MAC DIALOG: Confirm Policy Execution: DEBUG MODE: Skipping 'run_jamf_trigger code42_arm'
+2023-02-09 14:04:14 - SETUP YOUR MAC DIALOG: Validate Policy Result: 'code42_arm' '/Applications/Code42.app/Contents/Info.plist'
+2023-02-09 14:04:14 - SETUP YOUR MAC DIALOG: Validate Policy Result: Testing for "/Applications/Code42.app/Contents/Info.plist" …
+2023-02-09 14:04:14 - SETUP YOUR MAC DIALOG: listitem: index: 1, status: success, statustext: Installed
+2023-02-09 14:04:14 - SETUP YOUR MAC DIALOG: progress: increment 7
+2023-02-09 14:04:14 - SETUP YOUR MAC DIALOG: Elapsed Time: 0h:0m:1s
+2023-02-09 14:04:14 - 
+
+# # #
+# SETUP YOUR MAC DIALOG: policy_array > listitem: Crowdstrike Falcon
+# # #
+
+2023-02-09 14:04:14 - SETUP YOUR MAC DIALOG: listitem: index: 2, status: wait, statustext: Installing …, 
+2023-02-09 14:04:14 - SETUP YOUR MAC DIALOG: icon: https://ics.services.jamfcloud.com/icon/hash_5dbbf8eebbecb20ac443f958bfb3aa9a44ed23ce4f49005a12b29a8f33522c8b
+2023-02-09 14:04:14 - SETUP YOUR MAC DIALOG: progresstext: Install The Computer Security Software
+2023-02-09 14:04:14 - SETUP YOUR MAC DIALOG: Confirm Policy Execution: 'install_crowdstrike' '/Applications/Falcon.app/Contents/Info.plist'
+2023-02-09 14:04:14 - SETUP YOUR MAC DIALOG: Confirm Policy Execution: DEBUG MODE: Skipping 'run_jamf_trigger install_crowdstrike'
+2023-02-09 14:04:15 - SETUP YOUR MAC DIALOG: Validate Policy Result: 'install_crowdstrike' '/Applications/Falcon.app/Contents/Info.plist'
+2023-02-09 14:04:15 - SETUP YOUR MAC DIALOG: Validate Policy Result: Testing for "/Applications/Falcon.app/Contents/Info.plist" …
+2023-02-09 14:04:15 - SETUP YOUR MAC DIALOG: listitem: index: 2, status: success, statustext: Installed
+2023-02-09 14:04:15 - SETUP YOUR MAC DIALOG: progress: increment 7
+2023-02-09 14:04:15 - SETUP YOUR MAC DIALOG: Elapsed Time: 0h:0m:1s
+2023-02-09 14:04:15 - 
+
+# # #
+# SETUP YOUR MAC DIALOG: policy_array > listitem: Enable Filevault 2
+# # #
+
+2023-02-09 14:04:15 - SETUP YOUR MAC DIALOG: listitem: index: 3, status: wait, statustext: Installing …, 
+2023-02-09 14:04:15 - SETUP YOUR MAC DIALOG: icon: https://ics.services.jamfcloud.com/icon/hash_90958d0e1f8f8287a86a1198d21cded84eeea44886df2b3357d909fe2e6f1296
+2023-02-09 14:04:15 - SETUP YOUR MAC DIALOG: progresstext: Install and Configure macOS FileVault 2.
+2023-02-09 14:04:15 - SETUP YOUR MAC DIALOG: Skipping Policy Execution due to 'Local' validation
+2023-02-09 14:04:15 - SETUP YOUR MAC DIALOG: Validate Policy Result: 'enable_filevault' 'Local'
+2023-02-09 14:04:15 - SETUP YOUR MAC DIALOG: Locally Validate Policy Result: Validate FileVault … 
+2023-02-09 14:04:15 - SETUP YOUR MAC DIALOG: listitem: index: 3, status: wait, statustext: Checking …
+2023-02-09 14:04:15 - SETUP YOUR MAC DIALOG: Validate Policy Result: Pausing for 5 seconds for FileVault … 
+2023-02-09 14:04:20 - SETUP YOUR MAC DIALOG: Locally Validate Policy Result: FileVault: FileVault is On.
+2023-02-09 14:04:20 - SETUP YOUR MAC DIALOG: listitem: index: 3, status: success, statustext: Enabled
+2023-02-09 14:04:20 - SETUP YOUR MAC DIALOG: progress: increment 7
+2023-02-09 14:04:20 - SETUP YOUR MAC DIALOG: Elapsed Time: 0h:0m:5s
+2023-02-09 14:04:20 - 
+
+# # #
+# SETUP YOUR MAC DIALOG: policy_array > listitem: Microsoft Office 365
+# # #
+
+2023-02-09 14:04:20 - SETUP YOUR MAC DIALOG: listitem: index: 4, status: wait, statustext: Installing …, 
+2023-02-09 14:04:20 - SETUP YOUR MAC DIALOG: icon: https://ics.services.jamfcloud.com/icon/hash_f9ba35bd55488783456d64ec73372f029560531ca10dfa0e8154a46d7732b913
+2023-02-09 14:04:20 - SETUP YOUR MAC DIALOG: progresstext: Utilize the full Microsoft 365 suite of applicaitons.
+2023-02-09 14:04:20 - SETUP YOUR MAC DIALOG: Confirm Policy Execution: 'install_365' '/Applications/Microsoft Outlook.app/Contents/Info.plist'
+2023-02-09 14:04:20 - SETUP YOUR MAC DIALOG: Confirm Policy Execution: DEBUG MODE: Skipping 'run_jamf_trigger install_365'
+2023-02-09 14:04:21 - SETUP YOUR MAC DIALOG: Validate Policy Result: 'install_365' '/Applications/Microsoft Outlook.app/Contents/Info.plist'
+2023-02-09 14:04:21 - SETUP YOUR MAC DIALOG: Validate Policy Result: Testing for "/Applications/Microsoft Outlook.app/Contents/Info.plist" …
+2023-02-09 14:04:21 - SETUP YOUR MAC DIALOG: listitem: index: 4, status: success, statustext: Installed
+2023-02-09 14:04:21 - SETUP YOUR MAC DIALOG: progress: increment 7
+2023-02-09 14:04:21 - SETUP YOUR MAC DIALOG: Elapsed Time: 0h:0m:1s
+2023-02-09 14:04:21 - 
+
+# # #
+# SETUP YOUR MAC DIALOG: policy_array > listitem: Zoom
+# # #
+
+2023-02-09 14:04:21 - SETUP YOUR MAC DIALOG: listitem: index: 5, status: wait, statustext: Installing …, 
+2023-02-09 14:04:21 - SETUP YOUR MAC DIALOG: icon: https://ics.services.jamfcloud.com/icon/hash_be66420495a3f2f1981a49a0e0ad31783e9a789e835b4196af60554bf4c115ac
+2023-02-09 14:04:21 - SETUP YOUR MAC DIALOG: progresstext: Zoom is a videotelephony software program developed by Zoom Video Communications.
+2023-02-09 14:04:21 - SETUP YOUR MAC DIALOG: Confirm Policy Execution: 'install_zoom' '/Applications/zoom.us.app/Contents/Info.plist'
+2023-02-09 14:04:21 - SETUP YOUR MAC DIALOG: Confirm Policy Execution: DEBUG MODE: Skipping 'run_jamf_trigger install_zoom'
+2023-02-09 14:04:21 - SETUP YOUR MAC DIALOG: Validate Policy Result: 'install_zoom' '/Applications/zoom.us.app/Contents/Info.plist'
+2023-02-09 14:04:21 - SETUP YOUR MAC DIALOG: Validate Policy Result: Testing for "/Applications/zoom.us.app/Contents/Info.plist" …
+2023-02-09 14:04:21 - SETUP YOUR MAC DIALOG: listitem: index: 5, status: success, statustext: Installed
+2023-02-09 14:04:21 - SETUP YOUR MAC DIALOG: progress: increment 7
+2023-02-09 14:04:21 - SETUP YOUR MAC DIALOG: Elapsed Time: 0h:0m:0s
+2023-02-09 14:04:22 - 
+
+# # #
+# SETUP YOUR MAC DIALOG: policy_array > listitem: Google Chrome
+# # #
+
+2023-02-09 14:04:22 - SETUP YOUR MAC DIALOG: listitem: index: 6, status: wait, statustext: Installing …, 
+2023-02-09 14:04:22 - SETUP YOUR MAC DIALOG: icon: https://ics.services.jamfcloud.com/icon/hash_12d3d198f40ab2ac237cff3b5cb05b09f7f26966d6dffba780e4d4e5325cc701
+2023-02-09 14:04:22 - SETUP YOUR MAC DIALOG: progresstext: Browse the Internet with ease
+2023-02-09 14:04:22 - SETUP YOUR MAC DIALOG: Confirm Policy Execution: 'install_google_chrome' '/Applications/Google Chrome.app/Contents/Info.plist'
+2023-02-09 14:04:22 - SETUP YOUR MAC DIALOG: Confirm Policy Execution: DEBUG MODE: Skipping 'run_jamf_trigger install_google_chrome'
+2023-02-09 14:04:22 - SETUP YOUR MAC DIALOG: Validate Policy Result: 'install_google_chrome' '/Applications/Google Chrome.app/Contents/Info.plist'
+2023-02-09 14:04:22 - SETUP YOUR MAC DIALOG: Validate Policy Result: Testing for "/Applications/Google Chrome.app/Contents/Info.plist" …
+2023-02-09 14:04:22 - SETUP YOUR MAC DIALOG: listitem: index: 6, status: success, statustext: Installed
+2023-02-09 14:04:22 - SETUP YOUR MAC DIALOG: progress: increment 7
+2023-02-09 14:04:22 - SETUP YOUR MAC DIALOG: Elapsed Time: 0h:0m:1s
+2023-02-09 14:04:22 - 
+
+# # #
+# SETUP YOUR MAC DIALOG: policy_array > listitem: Slack
+# # #
+
+2023-02-09 14:04:22 - SETUP YOUR MAC DIALOG: listitem: index: 7, status: wait, statustext: Installing …, 
+2023-02-09 14:04:22 - SETUP YOUR MAC DIALOG: icon: https://ics.services.jamfcloud.com/icon/hash_a1ecbe1a4418113177cc061def4996d20a01a1e9b9adf9517899fcca31f3c026
+2023-02-09 14:04:22 - SETUP YOUR MAC DIALOG: progresstext: Install Slack Messaging System
+2023-02-09 14:04:22 - SETUP YOUR MAC DIALOG: Confirm Policy Execution: 'install_slack' '/Applications/Slack.app/Contents/Info.plist'
+2023-02-09 14:04:22 - SETUP YOUR MAC DIALOG: Confirm Policy Execution: DEBUG MODE: Skipping 'run_jamf_trigger install_slack'
+2023-02-09 14:04:23 - SETUP YOUR MAC DIALOG: Validate Policy Result: 'install_slack' '/Applications/Slack.app/Contents/Info.plist'
+2023-02-09 14:04:23 - SETUP YOUR MAC DIALOG: Validate Policy Result: Testing for "/Applications/Slack.app/Contents/Info.plist" …
+2023-02-09 14:04:23 - SETUP YOUR MAC DIALOG: listitem: index: 7, status: success, statustext: Installed
+2023-02-09 14:04:23 - SETUP YOUR MAC DIALOG: progress: increment 7
+2023-02-09 14:04:23 - SETUP YOUR MAC DIALOG: Elapsed Time: 0h:0m:1s
+2023-02-09 14:04:23 - 
+
+# # #
+# SETUP YOUR MAC DIALOG: policy_array > listitem: Google Drive
+# # #
+
+2023-02-09 14:04:23 - SETUP YOUR MAC DIALOG: listitem: index: 8, status: wait, statustext: Installing …, 
+2023-02-09 14:04:23 - SETUP YOUR MAC DIALOG: icon: https://ics.services.jamfcloud.com/icon/hash_a6954a50da661bd785407e23f83c6a1ac27006180eae1813086e64f4d6e65dcc
+2023-02-09 14:04:23 - SETUP YOUR MAC DIALOG: progresstext: The Preferred Cloud Storage Of The Collective.
+2023-02-09 14:04:23 - SETUP YOUR MAC DIALOG: Confirm Policy Execution: 'install_google_drive' '/Applications/Google Drive.app/Contents/Info.plist'
+2023-02-09 14:04:23 - SETUP YOUR MAC DIALOG: Confirm Policy Execution: DEBUG MODE: Skipping 'run_jamf_trigger install_google_drive'
+2023-02-09 14:04:24 - SETUP YOUR MAC DIALOG: Validate Policy Result: 'install_google_drive' '/Applications/Google Drive.app/Contents/Info.plist'
+2023-02-09 14:04:24 - SETUP YOUR MAC DIALOG: Validate Policy Result: Testing for "/Applications/Google Drive.app/Contents/Info.plist" …
+2023-02-09 14:04:24 - SETUP YOUR MAC DIALOG: listitem: index: 8, status: success, statustext: Installed
+2023-02-09 14:04:24 - SETUP YOUR MAC DIALOG: progress: increment 7
+2023-02-09 14:04:24 - SETUP YOUR MAC DIALOG: Elapsed Time: 0h:0m:1s
+2023-02-09 14:04:24 - 
+
+# # #
+# SETUP YOUR MAC DIALOG: policy_array > listitem: Conditional Access Tool
+# # #
+
+2023-02-09 14:04:24 - SETUP YOUR MAC DIALOG: listitem: index: 9, status: wait, statustext: Installing …, 
+2023-02-09 14:04:24 - SETUP YOUR MAC DIALOG: icon: https://ics.services.jamfcloud.com/icon/hash_7a97c3926c07d26c111a1f5c3d11fcaeb8471f6046e7b289d67bac74669f916a
+2023-02-09 14:04:24 - SETUP YOUR MAC DIALOG: progresstext: Ensure that Collective data is accessed by approved devices.
+2023-02-09 14:04:24 - SETUP YOUR MAC DIALOG: Skipping Policy Execution due to 'Local' validation
+2023-02-09 14:04:24 - SETUP YOUR MAC DIALOG: Validate Policy Result: 'okta_cba_arm' 'Local'
+2023-02-09 14:04:24 - SETUP YOUR MAC DIALOG: Locally Validate Policy Result: Validate CBA … 
+2023-02-09 14:04:24 - SETUP YOUR MAC DIALOG: listitem: index: 9, status: wait, statustext: Checking …
+2023-02-09 14:04:24 - SETUP YOUR MAC DIALOG: Validate Policy Result: Pausing for 5 seconds for CBA … 
+2023-02-09 14:04:29 - SETUP YOUR MAC DIALOG: Locally Validate Policy Result: CBA: CBA is Installed.
+2023-02-09 14:04:29 - SETUP YOUR MAC DIALOG: listitem: index: 9, status: success, statustext: Enabled
+2023-02-09 14:04:29 - SETUP YOUR MAC DIALOG: progress: increment 7
+2023-02-09 14:04:29 - SETUP YOUR MAC DIALOG: Elapsed Time: 0h:0m:5s
+2023-02-09 14:04:29 - 
+
+# # #
+# SETUP YOUR MAC DIALOG: policy_array > listitem: Crowdstrike Running Validation
+# # #
+
+2023-02-09 14:04:29 - SETUP YOUR MAC DIALOG: listitem: index: 10, status: wait, statustext: Installing …, 
+2023-02-09 14:04:29 - SETUP YOUR MAC DIALOG: icon: https://ics.services.jamfcloud.com/icon/hash_5dbbf8eebbecb20ac443f958bfb3aa9a44ed23ce4f49005a12b29a8f33522c8b
+2023-02-09 14:04:29 - SETUP YOUR MAC DIALOG: progresstext: Verify that the Crowdstrike Falcon agent is running
+2023-02-09 14:04:29 - SETUP YOUR MAC DIALOG: Skipping Policy Execution due to 'Remote' validation
+2023-02-09 14:04:29 - SETUP YOUR MAC DIALOG: Validate Policy Result: 'crowdstrike_validation' 'Remote'
+2023-02-09 14:04:29 - SETUP YOUR MAC DIALOG: DEBUG MODE: Remotely Confirm Policy Execution: Skipping 'run_jamf_trigger crowdstrike_validation'
+2023-02-09 14:04:29 - SETUP YOUR MAC DIALOG: listitem: index: 10, status: error, statustext: Debug Mode Enabled
+2023-02-09 14:04:30 - SETUP YOUR MAC DIALOG: progress: increment 7
+2023-02-09 14:04:30 - SETUP YOUR MAC DIALOG: Elapsed Time: 0h:0m:1s
+2023-02-09 14:04:30 - 
+
+# # #
+# SETUP YOUR MAC DIALOG: policy_array > listitem: Code42 Running Validation
+# # #
+
+2023-02-09 14:04:30 - SETUP YOUR MAC DIALOG: listitem: index: 11, status: wait, statustext: Installing …, 
+2023-02-09 14:04:30 - SETUP YOUR MAC DIALOG: icon: https://ics.services.jamfcloud.com/icon/hash_c6eea7e3663ad37c248dc6881ed97498048f502da8a427caefaf6d31963f3681
+2023-02-09 14:04:30 - SETUP YOUR MAC DIALOG: progresstext: Verify that the Code42 agent is running
+2023-02-09 14:04:30 - SETUP YOUR MAC DIALOG: Skipping Policy Execution due to 'Remote' validation
+2023-02-09 14:04:30 - SETUP YOUR MAC DIALOG: Validate Policy Result: 'code42_validate' 'Remote'
+2023-02-09 14:04:30 - SETUP YOUR MAC DIALOG: DEBUG MODE: Remotely Confirm Policy Execution: Skipping 'run_jamf_trigger code42_validate'
+2023-02-09 14:04:30 - SETUP YOUR MAC DIALOG: listitem: index: 11, status: error, statustext: Debug Mode Enabled
+2023-02-09 14:04:31 - SETUP YOUR MAC DIALOG: progress: increment 7
+2023-02-09 14:04:31 - SETUP YOUR MAC DIALOG: Elapsed Time: 0h:0m:1s
+2023-02-09 14:04:31 - 
+
+# # #
+# SETUP YOUR MAC DIALOG: policy_array > listitem: Re-name Computer
+# # #
+
+2023-02-09 14:04:31 - SETUP YOUR MAC DIALOG: listitem: index: 12, status: wait, statustext: Installing …, 
+2023-02-09 14:04:31 - SETUP YOUR MAC DIALOG: icon: https://ics.services.jamfcloud.com/icon/hash_90958d0e1f8f8287a86a1198d21cded84eeea44886df2b3357d909fe2e6f1296
+2023-02-09 14:04:31 - SETUP YOUR MAC DIALOG: progresstext: A listing of your Mac’s apps and settings — its inventory — is sent automatically to the Jamf Pro server daily.
+2023-02-09 14:04:31 - SETUP YOUR MAC DIALOG: Confirm Policy Execution: 'rename_computer' 'None'
+2023-02-09 14:04:31 - SETUP YOUR MAC DIALOG: Confirm Policy Execution: None
+2023-02-09 14:04:31 - SETUP YOUR MAC DIALOG: Validate Policy Result: 'rename_computer' 'None'
+2023-02-09 14:04:31 - SETUP YOUR MAC DIALOG: Confirm Policy Execution: None
+2023-02-09 14:04:31 - SETUP YOUR MAC DIALOG: listitem: index: 12, status: success, statustext: Installed
+2023-02-09 14:04:31 - SETUP YOUR MAC DIALOG: progress: increment 7
+2023-02-09 14:04:31 - SETUP YOUR MAC DIALOG: Elapsed Time: 0h:0m:0s
+2023-02-09 14:04:31 - 
+
+# # #
+# SETUP YOUR MAC DIALOG: policy_array > listitem: Computer Inventory
+# # #
+
+2023-02-09 14:04:31 - SETUP YOUR MAC DIALOG: listitem: index: 13, status: wait, statustext: Installing …, 
+2023-02-09 14:04:31 - SETUP YOUR MAC DIALOG: icon: https://ics.services.jamfcloud.com/icon/hash_90958d0e1f8f8287a86a1198d21cded84eeea44886df2b3357d909fe2e6f1296
+2023-02-09 14:04:31 - SETUP YOUR MAC DIALOG: progresstext: A listing of your Mac’s apps and settings — its inventory — is sent automatically to the Jamf Pro server daily.
+2023-02-09 14:04:32 - SETUP YOUR MAC DIALOG: Confirm Policy Execution: 'recon' 'None'
+2023-02-09 14:04:32 - SETUP YOUR MAC DIALOG: Confirm Policy Execution: None
+2023-02-09 14:04:32 - SETUP YOUR MAC DIALOG: Validate Policy Result: 'recon' 'None'
+2023-02-09 14:04:32 - SETUP YOUR MAC DIALOG: Confirm Policy Execution: None
+2023-02-09 14:04:32 - SETUP YOUR MAC DIALOG: listitem: index: 13, status: success, statustext: Installed
+2023-02-09 14:04:32 - SETUP YOUR MAC DIALOG: listitem: index: 13, status: wait, statustext: Updating …, 
+2023-02-09 14:04:32 - SETUP YOUR MAC DIALOG: Updating computer inventory with the following reconOptions: "" …
+2023-02-09 14:04:32 - SETUP YOUR MAC DIALOG: DEBUG MODE: eval /usr/local/bin/jamf recon 
+2023-02-09 14:04:32 - SETUP YOUR MAC DIALOG: listitem: index: 13, status: success, statustext: Updated
+2023-02-09 14:04:32 - SETUP YOUR MAC DIALOG: progress: increment 7
+2023-02-09 14:04:32 - SETUP YOUR MAC DIALOG: Elapsed Time: 0h:0m:1s
+2023-02-09 14:04:32 - SETUP YOUR MAC DIALOG: title: Matt's Mac is ready!
+2023-02-09 14:04:32 - SETUP YOUR MAC DIALOG: icon: SF=checkmark.circle.fill,weight=bold,colour1=#00ff44,colour2=#075c1e
+2023-02-09 14:04:32 - SETUP YOUR MAC DIALOG: progresstext: Complete! Please enjoy your new Mac, Matt!
+2023-02-09 14:04:32 - SETUP YOUR MAC DIALOG: progress: complete
+2023-02-09 14:04:32 - SETUP YOUR MAC DIALOG: button1text: Close
+2023-02-09 14:04:32 - SETUP YOUR MAC DIALOG: button1: enable
+2023-02-09 14:04:32 - Exiting …
+2023-02-09 14:04:32 - De-caffeinate …
+2023-02-09 14:04:32 - Attempting to terminate the 'caffeinate' process …
+2023-02-09 14:04:32 - (Termination message indicates success.)
+2023-02-09 14:04:32 - Removing /var/tmp/dialogWelcome.86P …
+2023-02-09 14:04:32 - Removing /var/tmp/dialogSetupYourMac.5Y0 …
+2023-02-09 14:04:32 - Removing /var/tmp/dialogFailure.XxT …
+2023-02-09 14:04:32 - Executing Completion Action Option: '/Library/Logs/mac_setup.log' …
+2023-02-09 14:04:32 - Run "osascript -e display dialog "Setup Your Mac is operating in Debug Mode.• completionActionOption == '/Library/Logs/mac_setup.log'" with title "Setup Your Mac: Debug Mode" buttons {"Close"} with icon note" as "502" … 
+2023-02-09 14:06:06 - 
+
+###
+# DEBUG MODE | Dialog: v2.0.1.3814 • Setup Your Mac: v1.7.0
+###
+
+2023-02-09 14:06:06 - swiftDialog version 2.0.1.3814 found; proceeding...
+2023-02-09 14:06:07 - SETUP YOUR MAC DIALOG: Total Number of Steps: 14
+2023-02-09 14:06:07 - SETUP YOUR MAC DIALOG: Progress Increment Value: 7
+2023-02-09 14:06:07 - SETUP YOUR MAC DIALOG: list: Rosetta, Code42, Crowdstrike Falcon, Enable Filevault 2, Microsoft Office 365, Zoom, Google Chrome, Slack, Google Drive, Conditional Access Tool, Crowdstrike Running Validation, Code42 Running Validation, Re-name Computer, Computer Inventory
+2023-02-09 14:06:07 - SETUP YOUR MAC DIALOG: listitem: index: 0, icon: https://ics.services.jamfcloud.com/icon/hash_8bac19160fabb0c8e7bac97b37b51d2ac8f38b7100b6357642d9505645d37b52, status: pending, statustext: Pending …
+2023-02-09 14:06:07 - SETUP YOUR MAC DIALOG: listitem: index: 1, icon: https://ics.services.jamfcloud.com/icon/hash_c6eea7e3663ad37c248dc6881ed97498048f502da8a427caefaf6d31963f3681, status: pending, statustext: Pending …
+2023-02-09 14:06:07 - SETUP YOUR MAC DIALOG: listitem: index: 2, icon: https://ics.services.jamfcloud.com/icon/hash_5dbbf8eebbecb20ac443f958bfb3aa9a44ed23ce4f49005a12b29a8f33522c8b, status: pending, statustext: Pending …
+2023-02-09 14:06:07 - SETUP YOUR MAC DIALOG: listitem: index: 3, icon: https://ics.services.jamfcloud.com/icon/hash_90958d0e1f8f8287a86a1198d21cded84eeea44886df2b3357d909fe2e6f1296, status: pending, statustext: Pending …
+2023-02-09 14:06:07 - SETUP YOUR MAC DIALOG: listitem: index: 4, icon: https://ics.services.jamfcloud.com/icon/hash_9eb046c4895aff0a12b1824134d38ec09b67bd6e809c66028c4140aae8ce32ec, status: pending, statustext: Pending …
+2023-02-09 14:06:07 - SETUP YOUR MAC DIALOG: listitem: index: 5, icon: https://ics.services.jamfcloud.com/icon/hash_be66420495a3f2f1981a49a0e0ad31783e9a789e835b4196af60554bf4c115ac, status: pending, statustext: Pending …
+2023-02-09 14:06:07 - SETUP YOUR MAC DIALOG: listitem: index: 6, icon: https://ics.services.jamfcloud.com/icon/hash_12d3d198f40ab2ac237cff3b5cb05b09f7f26966d6dffba780e4d4e5325cc701, status: pending, statustext: Pending …
+2023-02-09 14:06:07 - SETUP YOUR MAC DIALOG: listitem: index: 7, icon: https://ics.services.jamfcloud.com/icon/hash_a1ecbe1a4418113177cc061def4996d20a01a1e9b9adf9517899fcca31f3c026, status: pending, statustext: Pending …
+2023-02-09 14:06:07 - SETUP YOUR MAC DIALOG: listitem: index: 8, icon: https://ics.services.jamfcloud.com/icon/hash_a6954a50da661bd785407e23f83c6a1ac27006180eae1813086e64f4d6e65dcc, status: pending, statustext: Pending …
+2023-02-09 14:06:07 - SETUP YOUR MAC DIALOG: listitem: index: 9, icon: https://ics.services.jamfcloud.com/icon/hash_7a97c3926c07d26c111a1f5c3d11fcaeb8471f6046e7b289d67bac74669f916a, status: pending, statustext: Pending …
+2023-02-09 14:06:07 - SETUP YOUR MAC DIALOG: listitem: index: 10, icon: https://ics.services.jamfcloud.com/icon/hash_5dbbf8eebbecb20ac443f958bfb3aa9a44ed23ce4f49005a12b29a8f33522c8b, status: pending, statustext: Pending …
+2023-02-09 14:06:07 - SETUP YOUR MAC DIALOG: listitem: index: 11, icon: https://ics.services.jamfcloud.com/icon/hash_c6eea7e3663ad37c248dc6881ed97498048f502da8a427caefaf6d31963f3681, status: pending, statustext: Pending …
+2023-02-09 14:06:07 - SETUP YOUR MAC DIALOG: listitem: index: 12, icon: https://ics.services.jamfcloud.com/icon/hash_90958d0e1f8f8287a86a1198d21cded84eeea44886df2b3357d909fe2e6f1296, status: pending, statustext: Pending …
+2023-02-09 14:06:07 - SETUP YOUR MAC DIALOG: listitem: index: 13, icon: https://ics.services.jamfcloud.com/icon/hash_90958d0e1f8f8287a86a1198d21cded84eeea44886df2b3357d909fe2e6f1296, status: pending, statustext: Pending …
+2023-02-09 14:06:07 - SETUP YOUR MAC DIALOG: list: show
+2023-02-09 14:06:07 - SETUP YOUR MAC DIALOG: Initial progress bar
+2023-02-09 14:06:07 - SETUP YOUR MAC DIALOG: progress: 1
+2023-02-09 14:06:07 - WELCOME DIALOG: quit:
+2023-02-09 14:06:07 - SETUP YOUR MAC DIALOG: infobox: 
+2023-02-09 14:06:07 - 
+
+# # #
+# SETUP YOUR MAC DIALOG: policy_array > listitem: Rosetta
+# # #
+
+2023-02-09 14:06:07 - SETUP YOUR MAC DIALOG: listitem: index: 0, status: wait, statustext: Installing …, 
+2023-02-09 14:06:08 - SETUP YOUR MAC DIALOG: icon: https://ics.services.jamfcloud.com/icon/hash_8bac19160fabb0c8e7bac97b37b51d2ac8f38b7100b6357642d9505645d37b52
+2023-02-09 14:06:08 - SETUP YOUR MAC DIALOG: progresstext: Rosetta enables a Mac with Apple silicon to use apps built for a Mac with an Intel processor.
+2023-02-09 14:06:08 - SETUP YOUR MAC DIALOG: Skipping Policy Execution due to 'Local' validation
+2023-02-09 14:06:08 - SETUP YOUR MAC DIALOG: Validate Policy Result: 'install_rosetta' 'Local'
+2023-02-09 14:06:08 - SETUP YOUR MAC DIALOG: Locally Validate Policy Result: Rosetta 2 … 
+2023-02-09 14:06:08 - SETUP YOUR MAC DIALOG: listitem: index: 0, status: wait, statustext: Checking …
+2023-02-09 14:06:08 - SETUP YOUR MAC DIALOG: Locally Validate Policy Result: Rosetta 2 is installed
+2023-02-09 14:06:08 - SETUP YOUR MAC DIALOG: listitem: index: 0, status: success, statustext: Running
+2023-02-09 14:06:08 - SETUP YOUR MAC DIALOG: progress: increment 7
+2023-02-09 14:06:08 - SETUP YOUR MAC DIALOG: Elapsed Time: 0h:0m:1s
+2023-02-09 14:06:08 - 
+
+# # #
+# SETUP YOUR MAC DIALOG: policy_array > listitem: Code42
+# # #
+
+2023-02-09 14:06:08 - SETUP YOUR MAC DIALOG: listitem: index: 1, status: wait, statustext: Installing …, 
+2023-02-09 14:06:08 - SETUP YOUR MAC DIALOG: icon: https://ics.services.jamfcloud.com/icon/hash_c6eea7e3663ad37c248dc6881ed97498048f502da8a427caefaf6d31963f3681
+2023-02-09 14:06:08 - SETUP YOUR MAC DIALOG: progresstext: Install the EC Data Protection and Backup Software
+2023-02-09 14:06:08 - SETUP YOUR MAC DIALOG: Confirm Policy Execution: 'code42_arm' '/Applications/Code42.app/Contents/Info.plist'
+2023-02-09 14:06:08 - SETUP YOUR MAC DIALOG: Confirm Policy Execution: DEBUG MODE: Skipping 'run_jamf_trigger code42_arm'
+2023-02-09 14:06:08 - SETUP YOUR MAC DIALOG: Validate Policy Result: 'code42_arm' '/Applications/Code42.app/Contents/Info.plist'
+2023-02-09 14:06:08 - SETUP YOUR MAC DIALOG: Validate Policy Result: Testing for "/Applications/Code42.app/Contents/Info.plist" …
+2023-02-09 14:06:08 - SETUP YOUR MAC DIALOG: listitem: index: 1, status: success, statustext: Installed
+2023-02-09 14:06:08 - SETUP YOUR MAC DIALOG: progress: increment 7
+2023-02-09 14:06:08 - SETUP YOUR MAC DIALOG: Elapsed Time: 0h:0m:0s
+2023-02-09 14:06:08 - 
+
+# # #
+# SETUP YOUR MAC DIALOG: policy_array > listitem: Crowdstrike Falcon
+# # #
+
+2023-02-09 14:06:08 - SETUP YOUR MAC DIALOG: listitem: index: 2, status: wait, statustext: Installing …, 
+2023-02-09 14:06:08 - SETUP YOUR MAC DIALOG: icon: https://ics.services.jamfcloud.com/icon/hash_5dbbf8eebbecb20ac443f958bfb3aa9a44ed23ce4f49005a12b29a8f33522c8b
+2023-02-09 14:06:09 - SETUP YOUR MAC DIALOG: progresstext: Install The Computer Security Software
+2023-02-09 14:06:09 - SETUP YOUR MAC DIALOG: Confirm Policy Execution: 'install_crowdstrike' '/Applications/Falcon.app/Contents/Info.plist'
+2023-02-09 14:06:09 - SETUP YOUR MAC DIALOG: Confirm Policy Execution: DEBUG MODE: Skipping 'run_jamf_trigger install_crowdstrike'
+2023-02-09 14:06:09 - SETUP YOUR MAC DIALOG: Validate Policy Result: 'install_crowdstrike' '/Applications/Falcon.app/Contents/Info.plist'
+2023-02-09 14:06:09 - SETUP YOUR MAC DIALOG: Validate Policy Result: Testing for "/Applications/Falcon.app/Contents/Info.plist" …
+2023-02-09 14:06:09 - SETUP YOUR MAC DIALOG: listitem: index: 2, status: success, statustext: Installed
+2023-02-09 14:06:09 - SETUP YOUR MAC DIALOG: progress: increment 7
+2023-02-09 14:06:09 - SETUP YOUR MAC DIALOG: Elapsed Time: 0h:0m:1s
+2023-02-09 14:06:09 - 
+
+# # #
+# SETUP YOUR MAC DIALOG: policy_array > listitem: Enable Filevault 2
+# # #
+
+2023-02-09 14:06:09 - SETUP YOUR MAC DIALOG: listitem: index: 3, status: wait, statustext: Installing …, 
+2023-02-09 14:06:09 - SETUP YOUR MAC DIALOG: icon: https://ics.services.jamfcloud.com/icon/hash_90958d0e1f8f8287a86a1198d21cded84eeea44886df2b3357d909fe2e6f1296
+2023-02-09 14:06:09 - SETUP YOUR MAC DIALOG: progresstext: Install and Configure macOS FileVault 2.
+2023-02-09 14:06:09 - SETUP YOUR MAC DIALOG: Skipping Policy Execution due to 'Local' validation
+2023-02-09 14:06:09 - SETUP YOUR MAC DIALOG: Validate Policy Result: 'enable_filevault' 'Local'
+2023-02-09 14:06:09 - SETUP YOUR MAC DIALOG: Locally Validate Policy Result: Validate FileVault … 
+2023-02-09 14:06:09 - SETUP YOUR MAC DIALOG: listitem: index: 3, status: wait, statustext: Checking …
+2023-02-09 14:06:09 - SETUP YOUR MAC DIALOG: Validate Policy Result: Pausing for 5 seconds for FileVault … 
+2023-02-09 14:06:14 - SETUP YOUR MAC DIALOG: Locally Validate Policy Result: FileVault: FileVault is On.
+2023-02-09 14:06:14 - SETUP YOUR MAC DIALOG: listitem: index: 3, status: success, statustext: Enabled
+2023-02-09 14:06:14 - SETUP YOUR MAC DIALOG: progress: increment 7
+2023-02-09 14:06:14 - SETUP YOUR MAC DIALOG: Elapsed Time: 0h:0m:5s
+2023-02-09 14:06:15 - 
+
+# # #
+# SETUP YOUR MAC DIALOG: policy_array > listitem: Microsoft Office 365
+# # #
+
+2023-02-09 14:06:15 - SETUP YOUR MAC DIALOG: listitem: index: 4, status: wait, statustext: Installing …, 
+2023-02-09 14:06:15 - SETUP YOUR MAC DIALOG: icon: https://ics.services.jamfcloud.com/icon/hash_9eb046c4895aff0a12b1824134d38ec09b67bd6e809c66028c4140aae8ce32ec
+2023-02-09 14:06:15 - SETUP YOUR MAC DIALOG: progresstext: Utilize the full Microsoft 365 suite of applicaitons.
+2023-02-09 14:06:15 - SETUP YOUR MAC DIALOG: Confirm Policy Execution: 'install_365' '/Applications/Microsoft Outlook.app/Contents/Info.plist'
+2023-02-09 14:06:15 - SETUP YOUR MAC DIALOG: Confirm Policy Execution: DEBUG MODE: Skipping 'run_jamf_trigger install_365'
+2023-02-09 14:06:15 - SETUP YOUR MAC DIALOG: Validate Policy Result: 'install_365' '/Applications/Microsoft Outlook.app/Contents/Info.plist'
+2023-02-09 14:06:15 - SETUP YOUR MAC DIALOG: Validate Policy Result: Testing for "/Applications/Microsoft Outlook.app/Contents/Info.plist" …
+2023-02-09 14:06:15 - SETUP YOUR MAC DIALOG: listitem: index: 4, status: success, statustext: Installed
+2023-02-09 14:06:15 - SETUP YOUR MAC DIALOG: progress: increment 7
+2023-02-09 14:06:15 - SETUP YOUR MAC DIALOG: Elapsed Time: 0h:0m:1s
+2023-02-09 14:06:15 - 
+
+# # #
+# SETUP YOUR MAC DIALOG: policy_array > listitem: Zoom
+# # #
+
+2023-02-09 14:06:15 - SETUP YOUR MAC DIALOG: listitem: index: 5, status: wait, statustext: Installing …, 
+2023-02-09 14:06:15 - SETUP YOUR MAC DIALOG: icon: https://ics.services.jamfcloud.com/icon/hash_be66420495a3f2f1981a49a0e0ad31783e9a789e835b4196af60554bf4c115ac
+2023-02-09 14:06:15 - SETUP YOUR MAC DIALOG: progresstext: Zoom is a videotelephony software program developed by Zoom Video Communications.
+2023-02-09 14:06:15 - SETUP YOUR MAC DIALOG: Confirm Policy Execution: 'install_zoom' '/Applications/zoom.us.app/Contents/Info.plist'
+2023-02-09 14:06:15 - SETUP YOUR MAC DIALOG: Confirm Policy Execution: DEBUG MODE: Skipping 'run_jamf_trigger install_zoom'
+2023-02-09 14:06:16 - SETUP YOUR MAC DIALOG: Validate Policy Result: 'install_zoom' '/Applications/zoom.us.app/Contents/Info.plist'
+2023-02-09 14:06:16 - SETUP YOUR MAC DIALOG: Validate Policy Result: Testing for "/Applications/zoom.us.app/Contents/Info.plist" …
+2023-02-09 14:06:16 - SETUP YOUR MAC DIALOG: listitem: index: 5, status: success, statustext: Installed
+2023-02-09 14:06:16 - SETUP YOUR MAC DIALOG: progress: increment 7
+2023-02-09 14:06:16 - SETUP YOUR MAC DIALOG: Elapsed Time: 0h:0m:1s
+2023-02-09 14:06:16 - 
+
+# # #
+# SETUP YOUR MAC DIALOG: policy_array > listitem: Google Chrome
+# # #
+
+2023-02-09 14:06:16 - SETUP YOUR MAC DIALOG: listitem: index: 6, status: wait, statustext: Installing …, 
+2023-02-09 14:06:16 - SETUP YOUR MAC DIALOG: icon: https://ics.services.jamfcloud.com/icon/hash_12d3d198f40ab2ac237cff3b5cb05b09f7f26966d6dffba780e4d4e5325cc701
+2023-02-09 14:06:16 - SETUP YOUR MAC DIALOG: progresstext: Browse the Internet with ease
+2023-02-09 14:06:16 - SETUP YOUR MAC DIALOG: Confirm Policy Execution: 'install_google_chrome' '/Applications/Google Chrome.app/Contents/Info.plist'
+2023-02-09 14:06:16 - SETUP YOUR MAC DIALOG: Confirm Policy Execution: DEBUG MODE: Skipping 'run_jamf_trigger install_google_chrome'
+2023-02-09 14:06:17 - SETUP YOUR MAC DIALOG: Validate Policy Result: 'install_google_chrome' '/Applications/Google Chrome.app/Contents/Info.plist'
+2023-02-09 14:06:17 - SETUP YOUR MAC DIALOG: Validate Policy Result: Testing for "/Applications/Google Chrome.app/Contents/Info.plist" …
+2023-02-09 14:06:17 - SETUP YOUR MAC DIALOG: listitem: index: 6, status: success, statustext: Installed
+2023-02-09 14:06:17 - SETUP YOUR MAC DIALOG: progress: increment 7
+2023-02-09 14:06:17 - SETUP YOUR MAC DIALOG: Elapsed Time: 0h:0m:1s
+2023-02-09 14:06:17 - 
+
+# # #
+# SETUP YOUR MAC DIALOG: policy_array > listitem: Slack
+# # #
+
+2023-02-09 14:06:17 - SETUP YOUR MAC DIALOG: listitem: index: 7, status: wait, statustext: Installing …, 
+2023-02-09 14:06:17 - SETUP YOUR MAC DIALOG: icon: https://ics.services.jamfcloud.com/icon/hash_a1ecbe1a4418113177cc061def4996d20a01a1e9b9adf9517899fcca31f3c026
+2023-02-09 14:06:17 - SETUP YOUR MAC DIALOG: progresstext: Install Slack Messaging System
+2023-02-09 14:06:17 - SETUP YOUR MAC DIALOG: Confirm Policy Execution: 'install_slack' '/Applications/Slack.app/Contents/Info.plist'
+2023-02-09 14:06:17 - SETUP YOUR MAC DIALOG: Confirm Policy Execution: DEBUG MODE: Skipping 'run_jamf_trigger install_slack'
+2023-02-09 14:06:18 - SETUP YOUR MAC DIALOG: Validate Policy Result: 'install_slack' '/Applications/Slack.app/Contents/Info.plist'
+2023-02-09 14:06:18 - SETUP YOUR MAC DIALOG: Validate Policy Result: Testing for "/Applications/Slack.app/Contents/Info.plist" …
+2023-02-09 14:06:18 - SETUP YOUR MAC DIALOG: listitem: index: 7, status: success, statustext: Installed
+2023-02-09 14:06:18 - SETUP YOUR MAC DIALOG: progress: increment 7
+2023-02-09 14:06:18 - SETUP YOUR MAC DIALOG: Elapsed Time: 0h:0m:1s
+2023-02-09 14:06:18 - 
+
+# # #
+# SETUP YOUR MAC DIALOG: policy_array > listitem: Google Drive
+# # #
+
+2023-02-09 14:06:18 - SETUP YOUR MAC DIALOG: listitem: index: 8, status: wait, statustext: Installing …, 
+2023-02-09 14:06:18 - SETUP YOUR MAC DIALOG: icon: https://ics.services.jamfcloud.com/icon/hash_a6954a50da661bd785407e23f83c6a1ac27006180eae1813086e64f4d6e65dcc
+2023-02-09 14:06:18 - SETUP YOUR MAC DIALOG: progresstext: The Preferred Cloud Storage Of The Collective.
+2023-02-09 14:06:18 - SETUP YOUR MAC DIALOG: Confirm Policy Execution: 'install_google_drive' '/Applications/Google Drive.app/Contents/Info.plist'
+2023-02-09 14:06:18 - SETUP YOUR MAC DIALOG: Confirm Policy Execution: DEBUG MODE: Skipping 'run_jamf_trigger install_google_drive'
+2023-02-09 14:06:18 - SETUP YOUR MAC DIALOG: Validate Policy Result: 'install_google_drive' '/Applications/Google Drive.app/Contents/Info.plist'
+2023-02-09 14:06:18 - SETUP YOUR MAC DIALOG: Validate Policy Result: Testing for "/Applications/Google Drive.app/Contents/Info.plist" …
+2023-02-09 14:06:18 - SETUP YOUR MAC DIALOG: listitem: index: 8, status: success, statustext: Installed
+2023-02-09 14:06:18 - SETUP YOUR MAC DIALOG: progress: increment 7
+2023-02-09 14:06:18 - SETUP YOUR MAC DIALOG: Elapsed Time: 0h:0m:0s
+2023-02-09 14:06:19 - 
+
+# # #
+# SETUP YOUR MAC DIALOG: policy_array > listitem: Conditional Access Tool
+# # #
+
+2023-02-09 14:06:19 - SETUP YOUR MAC DIALOG: listitem: index: 9, status: wait, statustext: Installing …, 
+2023-02-09 14:06:19 - SETUP YOUR MAC DIALOG: icon: https://ics.services.jamfcloud.com/icon/hash_7a97c3926c07d26c111a1f5c3d11fcaeb8471f6046e7b289d67bac74669f916a
+2023-02-09 14:06:19 - SETUP YOUR MAC DIALOG: progresstext: Ensure that Collective data is accessed by approved devices.
+2023-02-09 14:06:19 - SETUP YOUR MAC DIALOG: Skipping Policy Execution due to 'Local' validation
+2023-02-09 14:06:19 - SETUP YOUR MAC DIALOG: Validate Policy Result: 'okta_cba_arm' 'Local'
+2023-02-09 14:06:19 - SETUP YOUR MAC DIALOG: Locally Validate Policy Result: Validate CBA … 
+2023-02-09 14:06:19 - SETUP YOUR MAC DIALOG: listitem: index: 9, status: wait, statustext: Checking …
+2023-02-09 14:06:19 - SETUP YOUR MAC DIALOG: Validate Policy Result: Pausing for 5 seconds for CBA … 
+2023-02-09 14:06:24 - SETUP YOUR MAC DIALOG: Locally Validate Policy Result: CBA: CBA is Installed.
+2023-02-09 14:06:24 - SETUP YOUR MAC DIALOG: listitem: index: 9, status: success, statustext: Enabled
+2023-02-09 14:06:24 - SETUP YOUR MAC DIALOG: progress: increment 7
+2023-02-09 14:06:24 - SETUP YOUR MAC DIALOG: Elapsed Time: 0h:0m:6s
+2023-02-09 14:06:24 - 
+
+# # #
+# SETUP YOUR MAC DIALOG: policy_array > listitem: Crowdstrike Running Validation
+# # #
+
+2023-02-09 14:06:24 - SETUP YOUR MAC DIALOG: listitem: index: 10, status: wait, statustext: Installing …, 
+2023-02-09 14:06:24 - SETUP YOUR MAC DIALOG: icon: https://ics.services.jamfcloud.com/icon/hash_5dbbf8eebbecb20ac443f958bfb3aa9a44ed23ce4f49005a12b29a8f33522c8b
+2023-02-09 14:06:24 - SETUP YOUR MAC DIALOG: progresstext: Verify that the Crowdstrike Falcon agent is running
+2023-02-09 14:06:24 - SETUP YOUR MAC DIALOG: Skipping Policy Execution due to 'Remote' validation
+2023-02-09 14:06:24 - SETUP YOUR MAC DIALOG: Validate Policy Result: 'crowdstrike_validation' 'Remote'
+2023-02-09 14:06:24 - SETUP YOUR MAC DIALOG: DEBUG MODE: Remotely Confirm Policy Execution: Skipping 'run_jamf_trigger crowdstrike_validation'
+2023-02-09 14:06:24 - SETUP YOUR MAC DIALOG: listitem: index: 10, status: error, statustext: Debug Mode Enabled
+2023-02-09 14:06:24 - SETUP YOUR MAC DIALOG: progress: increment 7
+2023-02-09 14:06:25 - SETUP YOUR MAC DIALOG: Elapsed Time: 0h:0m:1s
+2023-02-09 14:06:25 - 
+
+# # #
+# SETUP YOUR MAC DIALOG: policy_array > listitem: Code42 Running Validation
+# # #
+
+2023-02-09 14:06:25 - SETUP YOUR MAC DIALOG: listitem: index: 11, status: wait, statustext: Installing …, 
+2023-02-09 14:06:25 - SETUP YOUR MAC DIALOG: icon: https://ics.services.jamfcloud.com/icon/hash_c6eea7e3663ad37c248dc6881ed97498048f502da8a427caefaf6d31963f3681
+2023-02-09 14:06:25 - SETUP YOUR MAC DIALOG: progresstext: Verify that the Code42 agent is running
+2023-02-09 14:06:25 - SETUP YOUR MAC DIALOG: Skipping Policy Execution due to 'Remote' validation
+2023-02-09 14:06:25 - SETUP YOUR MAC DIALOG: Validate Policy Result: 'code42_validate' 'Remote'
+2023-02-09 14:06:25 - SETUP YOUR MAC DIALOG: DEBUG MODE: Remotely Confirm Policy Execution: Skipping 'run_jamf_trigger code42_validate'
+2023-02-09 14:06:25 - SETUP YOUR MAC DIALOG: listitem: index: 11, status: error, statustext: Debug Mode Enabled
+2023-02-09 14:06:25 - SETUP YOUR MAC DIALOG: progress: increment 7
+2023-02-09 14:06:25 - SETUP YOUR MAC DIALOG: Elapsed Time: 0h:0m:0s
+2023-02-09 14:06:25 - 
+
+# # #
+# SETUP YOUR MAC DIALOG: policy_array > listitem: Re-name Computer
+# # #
+
+2023-02-09 14:06:25 - SETUP YOUR MAC DIALOG: listitem: index: 12, status: wait, statustext: Installing …, 
+2023-02-09 14:06:25 - SETUP YOUR MAC DIALOG: icon: https://ics.services.jamfcloud.com/icon/hash_90958d0e1f8f8287a86a1198d21cded84eeea44886df2b3357d909fe2e6f1296
+2023-02-09 14:06:25 - SETUP YOUR MAC DIALOG: progresstext: A listing of your Mac’s apps and settings — its inventory — is sent automatically to the Jamf Pro server daily.
+2023-02-09 14:06:26 - SETUP YOUR MAC DIALOG: Confirm Policy Execution: 'rename_computer' 'None'
+2023-02-09 14:06:26 - SETUP YOUR MAC DIALOG: Confirm Policy Execution: None
+2023-02-09 14:06:26 - SETUP YOUR MAC DIALOG: Validate Policy Result: 'rename_computer' 'None'
+2023-02-09 14:06:26 - SETUP YOUR MAC DIALOG: Confirm Policy Execution: None
+2023-02-09 14:06:26 - SETUP YOUR MAC DIALOG: listitem: index: 12, status: success, statustext: Installed
+2023-02-09 14:06:26 - SETUP YOUR MAC DIALOG: progress: increment 7
+2023-02-09 14:06:26 - SETUP YOUR MAC DIALOG: Elapsed Time: 0h:0m:1s
+2023-02-09 14:06:26 - 
+
+# # #
+# SETUP YOUR MAC DIALOG: policy_array > listitem: Computer Inventory
+# # #
+
+2023-02-09 14:06:26 - SETUP YOUR MAC DIALOG: listitem: index: 13, status: wait, statustext: Installing …, 
+2023-02-09 14:06:26 - SETUP YOUR MAC DIALOG: icon: https://ics.services.jamfcloud.com/icon/hash_90958d0e1f8f8287a86a1198d21cded84eeea44886df2b3357d909fe2e6f1296
+2023-02-09 14:06:26 - SETUP YOUR MAC DIALOG: progresstext: A listing of your Mac’s apps and settings — its inventory — is sent automatically to the Jamf Pro server daily.
+2023-02-09 14:06:26 - SETUP YOUR MAC DIALOG: Confirm Policy Execution: 'recon' 'None'
+2023-02-09 14:06:26 - SETUP YOUR MAC DIALOG: Confirm Policy Execution: None
+2023-02-09 14:06:27 - SETUP YOUR MAC DIALOG: Validate Policy Result: 'recon' 'None'
+2023-02-09 14:06:27 - SETUP YOUR MAC DIALOG: Confirm Policy Execution: None
+2023-02-09 14:06:27 - SETUP YOUR MAC DIALOG: listitem: index: 13, status: success, statustext: Installed
+2023-02-09 14:06:27 - SETUP YOUR MAC DIALOG: listitem: index: 13, status: wait, statustext: Updating …, 
+2023-02-09 14:06:27 - SETUP YOUR MAC DIALOG: Updating computer inventory with the following reconOptions: "" …
+2023-02-09 14:06:27 - SETUP YOUR MAC DIALOG: DEBUG MODE: eval /usr/local/bin/jamf recon 
+2023-02-09 14:06:27 - SETUP YOUR MAC DIALOG: listitem: index: 13, status: success, statustext: Updated
+2023-02-09 14:06:27 - SETUP YOUR MAC DIALOG: progress: increment 7
+2023-02-09 14:06:27 - SETUP YOUR MAC DIALOG: Elapsed Time: 0h:0m:1s
+2023-02-09 14:06:27 - SETUP YOUR MAC DIALOG: title: Matt's Mac is ready!
+2023-02-09 14:06:27 - SETUP YOUR MAC DIALOG: icon: SF=checkmark.circle.fill,weight=bold,colour1=#00ff44,colour2=#075c1e
+2023-02-09 14:06:27 - SETUP YOUR MAC DIALOG: progresstext: Complete! Please enjoy your new Mac, Matt!
+2023-02-09 14:06:27 - SETUP YOUR MAC DIALOG: progress: complete
+2023-02-09 14:06:27 - SETUP YOUR MAC DIALOG: button1text: Close
+2023-02-09 14:06:27 - SETUP YOUR MAC DIALOG: button1: enable
+2023-02-09 14:06:27 - Exiting …
+2023-02-09 14:06:27 - De-caffeinate …
+2023-02-09 14:06:27 - Attempting to terminate the 'caffeinate' process …
+2023-02-09 14:06:27 - (Termination message indicates success.)
+2023-02-09 14:06:27 - Removing /var/tmp/dialogWelcome.ESX …
+2023-02-09 14:06:27 - Removing /var/tmp/dialogSetupYourMac.XBl …
+2023-02-09 14:06:27 - Removing /var/tmp/dialogFailure.sfm …
+2023-02-09 14:06:27 - Executing Completion Action Option: '/Library/Logs/mac_setup.log' …
+2023-02-09 14:06:27 - Run "osascript -e display dialog "Setup Your Mac is operating in Debug Mode.• completionActionOption == '/Library/Logs/mac_setup.log'" with title "Setup Your Mac: Debug Mode" buttons {"Close"} with icon note" as "502" … 
+2023-02-09 14:30:24 - 
+
+###
+# DEBUG MODE | Dialog: v2.0.1.3814 • Setup Your Mac: v1.7.0
+###
+
+2023-02-09 14:30:25 - swiftDialog version 2.0.1.3814 found; proceeding...
+2023-02-09 14:30:26 - SETUP YOUR MAC DIALOG: Total Number of Steps: 14
+2023-02-09 14:30:26 - SETUP YOUR MAC DIALOG: Progress Increment Value: 7
+2023-02-09 14:30:26 - SETUP YOUR MAC DIALOG: list: Rosetta, Code42, Crowdstrike Falcon, Enable Filevault 2, Microsoft Office 365, Zoom, Google Chrome, Slack, Google Drive, Conditional Access Tool, Crowdstrike Running Validation, Code42 Running Validation, Re-name Computer, Computer Inventory
+2023-02-09 14:30:26 - SETUP YOUR MAC DIALOG: listitem: index: 0, icon: https://ics.services.jamfcloud.com/icon/hash_8bac19160fabb0c8e7bac97b37b51d2ac8f38b7100b6357642d9505645d37b52, status: pending, statustext: Pending …
+2023-02-09 14:30:26 - SETUP YOUR MAC DIALOG: listitem: index: 1, icon: https://ics.services.jamfcloud.com/icon/hash_c6eea7e3663ad37c248dc6881ed97498048f502da8a427caefaf6d31963f3681, status: pending, statustext: Pending …
+2023-02-09 14:30:26 - SETUP YOUR MAC DIALOG: listitem: index: 2, icon: https://ics.services.jamfcloud.com/icon/hash_5dbbf8eebbecb20ac443f958bfb3aa9a44ed23ce4f49005a12b29a8f33522c8b, status: pending, statustext: Pending …
+2023-02-09 14:30:26 - SETUP YOUR MAC DIALOG: listitem: index: 3, icon: https://ics.services.jamfcloud.com/icon/hash_90958d0e1f8f8287a86a1198d21cded84eeea44886df2b3357d909fe2e6f1296, status: pending, statustext: Pending …
+2023-02-09 14:30:26 - SETUP YOUR MAC DIALOG: listitem: index: 4, icon: https://ics.services.jamfcloud.com/icon/hash_9eb046c4895aff0a12b1824134d38ec09b67bd6e809c66028c4140aae8ce32ec, status: pending, statustext: Pending …
+2023-02-09 14:30:26 - SETUP YOUR MAC DIALOG: listitem: index: 5, icon: https://ics.services.jamfcloud.com/icon/hash_be66420495a3f2f1981a49a0e0ad31783e9a789e835b4196af60554bf4c115ac, status: pending, statustext: Pending …
+2023-02-09 14:30:26 - SETUP YOUR MAC DIALOG: listitem: index: 6, icon: https://ics.services.jamfcloud.com/icon/hash_12d3d198f40ab2ac237cff3b5cb05b09f7f26966d6dffba780e4d4e5325cc701, status: pending, statustext: Pending …
+2023-02-09 14:30:26 - SETUP YOUR MAC DIALOG: listitem: index: 7, icon: https://ics.services.jamfcloud.com/icon/hash_a1ecbe1a4418113177cc061def4996d20a01a1e9b9adf9517899fcca31f3c026, status: pending, statustext: Pending …
+2023-02-09 14:30:26 - SETUP YOUR MAC DIALOG: listitem: index: 8, icon: https://ics.services.jamfcloud.com/icon/hash_a6954a50da661bd785407e23f83c6a1ac27006180eae1813086e64f4d6e65dcc, status: pending, statustext: Pending …
+2023-02-09 14:30:26 - SETUP YOUR MAC DIALOG: listitem: index: 9, icon: https://ics.services.jamfcloud.com/icon/hash_7a97c3926c07d26c111a1f5c3d11fcaeb8471f6046e7b289d67bac74669f916a, status: pending, statustext: Pending …
+2023-02-09 14:30:26 - SETUP YOUR MAC DIALOG: listitem: index: 10, icon: https://ics.services.jamfcloud.com/icon/hash_5dbbf8eebbecb20ac443f958bfb3aa9a44ed23ce4f49005a12b29a8f33522c8b, status: pending, statustext: Pending …
+2023-02-09 14:30:26 - SETUP YOUR MAC DIALOG: listitem: index: 11, icon: https://ics.services.jamfcloud.com/icon/hash_c6eea7e3663ad37c248dc6881ed97498048f502da8a427caefaf6d31963f3681, status: pending, statustext: Pending …
+2023-02-09 14:30:26 - SETUP YOUR MAC DIALOG: listitem: index: 12, icon: https://ics.services.jamfcloud.com/icon/hash_90958d0e1f8f8287a86a1198d21cded84eeea44886df2b3357d909fe2e6f1296, status: pending, statustext: Pending …
+2023-02-09 14:30:26 - SETUP YOUR MAC DIALOG: listitem: index: 13, icon: https://ics.services.jamfcloud.com/icon/hash_90958d0e1f8f8287a86a1198d21cded84eeea44886df2b3357d909fe2e6f1296, status: pending, statustext: Pending …
+2023-02-09 14:30:26 - SETUP YOUR MAC DIALOG: list: show
+2023-02-09 14:30:26 - SETUP YOUR MAC DIALOG: Initial progress bar
+2023-02-09 14:30:26 - SETUP YOUR MAC DIALOG: progress: 1
+2023-02-09 14:30:26 - WELCOME DIALOG: quit:
+2023-02-09 14:30:26 - SETUP YOUR MAC DIALOG: infobox: 
+2023-02-09 14:30:26 - 
+
+# # #
+# SETUP YOUR MAC DIALOG: policy_array > listitem: Rosetta
+# # #
+
+2023-02-09 14:30:26 - SETUP YOUR MAC DIALOG: listitem: index: 0, status: wait, statustext: Installing …, 
+2023-02-09 14:30:26 - SETUP YOUR MAC DIALOG: icon: https://ics.services.jamfcloud.com/icon/hash_8bac19160fabb0c8e7bac97b37b51d2ac8f38b7100b6357642d9505645d37b52
+2023-02-09 14:30:26 - SETUP YOUR MAC DIALOG: progresstext: Rosetta enables a Mac with Apple silicon to use apps built for a Mac with an Intel processor.
+2023-02-09 14:30:26 - SETUP YOUR MAC DIALOG: Skipping Policy Execution due to 'Local' validation
+2023-02-09 14:30:26 - SETUP YOUR MAC DIALOG: Validate Policy Result: 'install_rosetta' 'Local'
+2023-02-09 14:30:26 - SETUP YOUR MAC DIALOG: Locally Validate Policy Result: Rosetta 2 … 
+2023-02-09 14:30:26 - SETUP YOUR MAC DIALOG: listitem: index: 0, status: wait, statustext: Checking …
+2023-02-09 14:30:26 - SETUP YOUR MAC DIALOG: Locally Validate Policy Result: Rosetta 2 is installed
+2023-02-09 14:30:26 - SETUP YOUR MAC DIALOG: listitem: index: 0, status: success, statustext: Running
+2023-02-09 14:30:26 - SETUP YOUR MAC DIALOG: progress: increment 7
+2023-02-09 14:30:26 - SETUP YOUR MAC DIALOG: Elapsed Time: 0h:0m:0s
+2023-02-09 14:30:26 - 
+
+# # #
+# SETUP YOUR MAC DIALOG: policy_array > listitem: Code42
+# # #
+
+2023-02-09 14:30:26 - SETUP YOUR MAC DIALOG: listitem: index: 1, status: wait, statustext: Installing …, 
+2023-02-09 14:30:26 - SETUP YOUR MAC DIALOG: icon: https://ics.services.jamfcloud.com/icon/hash_c6eea7e3663ad37c248dc6881ed97498048f502da8a427caefaf6d31963f3681
+2023-02-09 14:30:26 - SETUP YOUR MAC DIALOG: progresstext: Install the EC Data Protection and Backup Software
+2023-02-09 14:30:27 - SETUP YOUR MAC DIALOG: Confirm Policy Execution: 'code42_arm' '/Applications/Code42.app/Contents/Info.plist'
+2023-02-09 14:30:27 - SETUP YOUR MAC DIALOG: Confirm Policy Execution: DEBUG MODE: Skipping 'run_jamf_trigger code42_arm'
+2023-02-09 14:30:27 - SETUP YOUR MAC DIALOG: Validate Policy Result: 'code42_arm' '/Applications/Code42.app/Contents/Info.plist'
+2023-02-09 14:30:27 - SETUP YOUR MAC DIALOG: Validate Policy Result: Testing for "/Applications/Code42.app/Contents/Info.plist" …
+2023-02-09 14:30:27 - SETUP YOUR MAC DIALOG: listitem: index: 1, status: success, statustext: Installed
+2023-02-09 14:30:27 - SETUP YOUR MAC DIALOG: progress: increment 7
+2023-02-09 14:30:27 - SETUP YOUR MAC DIALOG: Elapsed Time: 0h:0m:1s
+2023-02-09 14:30:27 - 
+
+# # #
+# SETUP YOUR MAC DIALOG: policy_array > listitem: Crowdstrike Falcon
+# # #
+
+2023-02-09 14:30:27 - SETUP YOUR MAC DIALOG: listitem: index: 2, status: wait, statustext: Installing …, 
+2023-02-09 14:30:27 - SETUP YOUR MAC DIALOG: icon: https://ics.services.jamfcloud.com/icon/hash_5dbbf8eebbecb20ac443f958bfb3aa9a44ed23ce4f49005a12b29a8f33522c8b
+2023-02-09 14:30:27 - SETUP YOUR MAC DIALOG: progresstext: Install The Computer Security Software
+2023-02-09 14:30:27 - SETUP YOUR MAC DIALOG: Confirm Policy Execution: 'install_crowdstrike' '/Applications/Falcon.app/Contents/Info.plist'
+2023-02-09 14:30:27 - SETUP YOUR MAC DIALOG: Confirm Policy Execution: DEBUG MODE: Skipping 'run_jamf_trigger install_crowdstrike'
+2023-02-09 14:30:28 - SETUP YOUR MAC DIALOG: Validate Policy Result: 'install_crowdstrike' '/Applications/Falcon.app/Contents/Info.plist'
+2023-02-09 14:30:28 - SETUP YOUR MAC DIALOG: Validate Policy Result: Testing for "/Applications/Falcon.app/Contents/Info.plist" …
+2023-02-09 14:30:28 - SETUP YOUR MAC DIALOG: listitem: index: 2, status: success, statustext: Installed
+2023-02-09 14:30:28 - SETUP YOUR MAC DIALOG: progress: increment 7
+2023-02-09 14:30:28 - SETUP YOUR MAC DIALOG: Elapsed Time: 0h:0m:1s
+2023-02-09 14:30:28 - 
+
+# # #
+# SETUP YOUR MAC DIALOG: policy_array > listitem: Enable Filevault 2
+# # #
+
+2023-02-09 14:30:28 - SETUP YOUR MAC DIALOG: listitem: index: 3, status: wait, statustext: Installing …, 
+2023-02-09 14:30:28 - SETUP YOUR MAC DIALOG: icon: https://ics.services.jamfcloud.com/icon/hash_90958d0e1f8f8287a86a1198d21cded84eeea44886df2b3357d909fe2e6f1296
+2023-02-09 14:30:28 - SETUP YOUR MAC DIALOG: progresstext: Install and Configure macOS FileVault 2.
+2023-02-09 14:30:28 - SETUP YOUR MAC DIALOG: Skipping Policy Execution due to 'Local' validation
+2023-02-09 14:30:28 - SETUP YOUR MAC DIALOG: Validate Policy Result: 'enable_filevault' 'Local'
+2023-02-09 14:30:28 - SETUP YOUR MAC DIALOG: Locally Validate Policy Result: Validate FileVault … 
+2023-02-09 14:30:28 - SETUP YOUR MAC DIALOG: listitem: index: 3, status: wait, statustext: Checking …
+2023-02-09 14:30:28 - SETUP YOUR MAC DIALOG: Validate Policy Result: Pausing for 5 seconds for FileVault … 
+2023-02-09 14:30:33 - SETUP YOUR MAC DIALOG: Locally Validate Policy Result: FileVault: FileVault is On.
+2023-02-09 14:30:33 - SETUP YOUR MAC DIALOG: listitem: index: 3, status: success, statustext: Enabled
+2023-02-09 14:30:33 - SETUP YOUR MAC DIALOG: progress: increment 7
+2023-02-09 14:30:33 - SETUP YOUR MAC DIALOG: Elapsed Time: 0h:0m:5s
+2023-02-09 14:30:33 - 
+
+# # #
+# SETUP YOUR MAC DIALOG: policy_array > listitem: Microsoft Office 365
+# # #
+
+2023-02-09 14:30:33 - SETUP YOUR MAC DIALOG: listitem: index: 4, status: wait, statustext: Installing …, 
+2023-02-09 14:30:33 - SETUP YOUR MAC DIALOG: icon: https://ics.services.jamfcloud.com/icon/hash_9eb046c4895aff0a12b1824134d38ec09b67bd6e809c66028c4140aae8ce32ec
+2023-02-09 14:30:33 - SETUP YOUR MAC DIALOG: progresstext: Utilize the full Microsoft 365 suite of applicaitons.
+2023-02-09 14:30:33 - SETUP YOUR MAC DIALOG: Confirm Policy Execution: 'install_365' '/Applications/Microsoft Outlook.app/Contents/Info.plist'
+2023-02-09 14:30:33 - SETUP YOUR MAC DIALOG: Confirm Policy Execution: DEBUG MODE: Skipping 'run_jamf_trigger install_365'
+2023-02-09 14:30:34 - SETUP YOUR MAC DIALOG: Validate Policy Result: 'install_365' '/Applications/Microsoft Outlook.app/Contents/Info.plist'
+2023-02-09 14:30:34 - SETUP YOUR MAC DIALOG: Validate Policy Result: Testing for "/Applications/Microsoft Outlook.app/Contents/Info.plist" …
+2023-02-09 14:30:34 - SETUP YOUR MAC DIALOG: listitem: index: 4, status: success, statustext: Installed
+2023-02-09 14:30:34 - SETUP YOUR MAC DIALOG: progress: increment 7
+2023-02-09 14:30:34 - SETUP YOUR MAC DIALOG: Elapsed Time: 0h:0m:1s
+2023-02-09 14:30:34 - 
+
+# # #
+# SETUP YOUR MAC DIALOG: policy_array > listitem: Zoom
+# # #
+
+2023-02-09 14:30:34 - SETUP YOUR MAC DIALOG: listitem: index: 5, status: wait, statustext: Installing …, 
+2023-02-09 14:30:34 - SETUP YOUR MAC DIALOG: icon: https://ics.services.jamfcloud.com/icon/hash_be66420495a3f2f1981a49a0e0ad31783e9a789e835b4196af60554bf4c115ac
+2023-02-09 14:30:34 - SETUP YOUR MAC DIALOG: progresstext: Zoom is a videotelephony software program developed by Zoom Video Communications.
+2023-02-09 14:30:34 - SETUP YOUR MAC DIALOG: Confirm Policy Execution: 'install_zoom' '/Applications/zoom.us.app/Contents/Info.plist'
+2023-02-09 14:30:34 - SETUP YOUR MAC DIALOG: Confirm Policy Execution: DEBUG MODE: Skipping 'run_jamf_trigger install_zoom'
+2023-02-09 14:30:35 - SETUP YOUR MAC DIALOG: Validate Policy Result: 'install_zoom' '/Applications/zoom.us.app/Contents/Info.plist'
+2023-02-09 14:30:35 - SETUP YOUR MAC DIALOG: Validate Policy Result: Testing for "/Applications/zoom.us.app/Contents/Info.plist" …
+2023-02-09 14:30:35 - SETUP YOUR MAC DIALOG: listitem: index: 5, status: success, statustext: Installed
+2023-02-09 14:30:35 - SETUP YOUR MAC DIALOG: progress: increment 7
+2023-02-09 14:30:35 - SETUP YOUR MAC DIALOG: Elapsed Time: 0h:0m:1s
+2023-02-09 14:30:35 - 
+
+# # #
+# SETUP YOUR MAC DIALOG: policy_array > listitem: Google Chrome
+# # #
+
+2023-02-09 14:30:35 - SETUP YOUR MAC DIALOG: listitem: index: 6, status: wait, statustext: Installing …, 
+2023-02-09 14:30:35 - SETUP YOUR MAC DIALOG: icon: https://ics.services.jamfcloud.com/icon/hash_12d3d198f40ab2ac237cff3b5cb05b09f7f26966d6dffba780e4d4e5325cc701
+2023-02-09 14:30:35 - SETUP YOUR MAC DIALOG: progresstext: Browse the Internet with ease
+2023-02-09 14:30:35 - SETUP YOUR MAC DIALOG: Confirm Policy Execution: 'install_google_chrome' '/Applications/Google Chrome.app/Contents/Info.plist'
+2023-02-09 14:30:35 - SETUP YOUR MAC DIALOG: Confirm Policy Execution: DEBUG MODE: Skipping 'run_jamf_trigger install_google_chrome'
+2023-02-09 14:30:36 - SETUP YOUR MAC DIALOG: Validate Policy Result: 'install_google_chrome' '/Applications/Google Chrome.app/Contents/Info.plist'
+2023-02-09 14:30:36 - SETUP YOUR MAC DIALOG: Validate Policy Result: Testing for "/Applications/Google Chrome.app/Contents/Info.plist" …
+2023-02-09 14:30:36 - SETUP YOUR MAC DIALOG: listitem: index: 6, status: success, statustext: Installed
+2023-02-09 14:30:36 - SETUP YOUR MAC DIALOG: progress: increment 7
+2023-02-09 14:30:36 - SETUP YOUR MAC DIALOG: Elapsed Time: 0h:0m:1s
+2023-02-09 14:30:36 - 
+
+# # #
+# SETUP YOUR MAC DIALOG: policy_array > listitem: Slack
+# # #
+
+2023-02-09 14:30:36 - SETUP YOUR MAC DIALOG: listitem: index: 7, status: wait, statustext: Installing …, 
+2023-02-09 14:30:36 - SETUP YOUR MAC DIALOG: icon: https://ics.services.jamfcloud.com/icon/hash_a1ecbe1a4418113177cc061def4996d20a01a1e9b9adf9517899fcca31f3c026
+2023-02-09 14:30:36 - SETUP YOUR MAC DIALOG: progresstext: Install Slack Messaging System
+2023-02-09 14:30:36 - SETUP YOUR MAC DIALOG: Confirm Policy Execution: 'install_slack' '/Applications/Slack.app/Contents/Info.plist'
+2023-02-09 14:30:36 - SETUP YOUR MAC DIALOG: Confirm Policy Execution: DEBUG MODE: Skipping 'run_jamf_trigger install_slack'
+2023-02-09 14:30:36 - SETUP YOUR MAC DIALOG: Validate Policy Result: 'install_slack' '/Applications/Slack.app/Contents/Info.plist'
+2023-02-09 14:30:36 - SETUP YOUR MAC DIALOG: Validate Policy Result: Testing for "/Applications/Slack.app/Contents/Info.plist" …
+2023-02-09 14:30:36 - SETUP YOUR MAC DIALOG: listitem: index: 7, status: success, statustext: Installed
+2023-02-09 14:30:36 - SETUP YOUR MAC DIALOG: progress: increment 7
+2023-02-09 14:30:36 - SETUP YOUR MAC DIALOG: Elapsed Time: 0h:0m:0s
+2023-02-09 14:30:37 - 
+
+# # #
+# SETUP YOUR MAC DIALOG: policy_array > listitem: Google Drive
+# # #
+
+2023-02-09 14:30:37 - SETUP YOUR MAC DIALOG: listitem: index: 8, status: wait, statustext: Installing …, 
+2023-02-09 14:30:37 - SETUP YOUR MAC DIALOG: icon: https://ics.services.jamfcloud.com/icon/hash_a6954a50da661bd785407e23f83c6a1ac27006180eae1813086e64f4d6e65dcc
+2023-02-09 14:30:37 - SETUP YOUR MAC DIALOG: progresstext: The Preferred Cloud Storage Of The Collective.
+2023-02-09 14:30:37 - SETUP YOUR MAC DIALOG: Confirm Policy Execution: 'install_google_drive' '/Applications/Google Drive.app/Contents/Info.plist'
+2023-02-09 14:30:37 - SETUP YOUR MAC DIALOG: Confirm Policy Execution: DEBUG MODE: Skipping 'run_jamf_trigger install_google_drive'
+2023-02-09 14:30:37 - SETUP YOUR MAC DIALOG: Validate Policy Result: 'install_google_drive' '/Applications/Google Drive.app/Contents/Info.plist'
+2023-02-09 14:30:37 - SETUP YOUR MAC DIALOG: Validate Policy Result: Testing for "/Applications/Google Drive.app/Contents/Info.plist" …
+2023-02-09 14:30:37 - SETUP YOUR MAC DIALOG: listitem: index: 8, status: success, statustext: Installed
+2023-02-09 14:30:37 - SETUP YOUR MAC DIALOG: progress: increment 7
+2023-02-09 14:30:37 - SETUP YOUR MAC DIALOG: Elapsed Time: 0h:0m:1s
+2023-02-09 14:30:37 - 
+
+# # #
+# SETUP YOUR MAC DIALOG: policy_array > listitem: Conditional Access Tool
+# # #
+
+2023-02-09 14:30:37 - SETUP YOUR MAC DIALOG: listitem: index: 9, status: wait, statustext: Installing …, 
+2023-02-09 14:30:37 - SETUP YOUR MAC DIALOG: icon: https://ics.services.jamfcloud.com/icon/hash_7a97c3926c07d26c111a1f5c3d11fcaeb8471f6046e7b289d67bac74669f916a
+2023-02-09 14:30:37 - SETUP YOUR MAC DIALOG: progresstext: Ensure that Collective data is accessed by approved devices.
+2023-02-09 14:30:37 - SETUP YOUR MAC DIALOG: Skipping Policy Execution due to 'Local' validation
+2023-02-09 14:30:37 - SETUP YOUR MAC DIALOG: Validate Policy Result: 'okta_cba_arm' 'Local'
+2023-02-09 14:30:37 - SETUP YOUR MAC DIALOG: Locally Validate Policy Result: Validate CBA … 
+2023-02-09 14:30:37 - SETUP YOUR MAC DIALOG: listitem: index: 9, status: wait, statustext: Checking …
+2023-02-09 14:30:37 - SETUP YOUR MAC DIALOG: Validate Policy Result: Pausing for 5 seconds for CBA … 
+2023-02-09 14:30:42 - SETUP YOUR MAC DIALOG: Locally Validate Policy Result: CBA: CBA is Installed.
+2023-02-09 14:30:42 - SETUP YOUR MAC DIALOG: listitem: index: 9, status: success, statustext: Enabled
+2023-02-09 14:30:43 - SETUP YOUR MAC DIALOG: progress: increment 7
+2023-02-09 14:30:43 - SETUP YOUR MAC DIALOG: Elapsed Time: 0h:0m:6s
+2023-02-09 14:30:43 - 
+
+# # #
+# SETUP YOUR MAC DIALOG: policy_array > listitem: Crowdstrike Running Validation
+# # #
+
+2023-02-09 14:30:43 - SETUP YOUR MAC DIALOG: listitem: index: 10, status: wait, statustext: Installing …, 
+2023-02-09 14:30:43 - SETUP YOUR MAC DIALOG: icon: https://ics.services.jamfcloud.com/icon/hash_5dbbf8eebbecb20ac443f958bfb3aa9a44ed23ce4f49005a12b29a8f33522c8b
+2023-02-09 14:30:43 - SETUP YOUR MAC DIALOG: progresstext: Verify that the Crowdstrike Falcon agent is running
+2023-02-09 14:30:43 - SETUP YOUR MAC DIALOG: Skipping Policy Execution due to 'Remote' validation
+2023-02-09 14:30:43 - SETUP YOUR MAC DIALOG: Validate Policy Result: 'crowdstrike_validation' 'Remote'
+2023-02-09 14:30:43 - SETUP YOUR MAC DIALOG: DEBUG MODE: Remotely Confirm Policy Execution: Skipping 'run_jamf_trigger crowdstrike_validation'
+2023-02-09 14:30:43 - SETUP YOUR MAC DIALOG: listitem: index: 10, status: error, statustext: Debug Mode Enabled
+2023-02-09 14:30:43 - SETUP YOUR MAC DIALOG: progress: increment 7
+2023-02-09 14:30:43 - SETUP YOUR MAC DIALOG: Elapsed Time: 0h:0m:0s
+2023-02-09 14:30:43 - 
+
+# # #
+# SETUP YOUR MAC DIALOG: policy_array > listitem: Code42 Running Validation
+# # #
+
+2023-02-09 14:30:43 - SETUP YOUR MAC DIALOG: listitem: index: 11, status: wait, statustext: Installing …, 
+2023-02-09 14:30:43 - SETUP YOUR MAC DIALOG: icon: https://ics.services.jamfcloud.com/icon/hash_c6eea7e3663ad37c248dc6881ed97498048f502da8a427caefaf6d31963f3681
+2023-02-09 14:30:43 - SETUP YOUR MAC DIALOG: progresstext: Verify that the Code42 agent is running
+2023-02-09 14:30:44 - SETUP YOUR MAC DIALOG: Skipping Policy Execution due to 'Remote' validation
+2023-02-09 14:30:44 - SETUP YOUR MAC DIALOG: Validate Policy Result: 'code42_validate' 'Remote'
+2023-02-09 14:30:44 - SETUP YOUR MAC DIALOG: DEBUG MODE: Remotely Confirm Policy Execution: Skipping 'run_jamf_trigger code42_validate'
+2023-02-09 14:30:44 - SETUP YOUR MAC DIALOG: listitem: index: 11, status: error, statustext: Debug Mode Enabled
+2023-02-09 14:30:44 - SETUP YOUR MAC DIALOG: progress: increment 7
+2023-02-09 14:30:44 - SETUP YOUR MAC DIALOG: Elapsed Time: 0h:0m:1s
+2023-02-09 14:30:44 - 
+
+# # #
+# SETUP YOUR MAC DIALOG: policy_array > listitem: Re-name Computer
+# # #
+
+2023-02-09 14:30:44 - SETUP YOUR MAC DIALOG: listitem: index: 12, status: wait, statustext: Installing …, 
+2023-02-09 14:30:44 - SETUP YOUR MAC DIALOG: icon: https://ics.services.jamfcloud.com/icon/hash_90958d0e1f8f8287a86a1198d21cded84eeea44886df2b3357d909fe2e6f1296
+2023-02-09 14:30:44 - SETUP YOUR MAC DIALOG: progresstext: A listing of your Mac’s apps and settings — its inventory — is sent automatically to the Jamf Pro server daily.
+2023-02-09 14:30:44 - SETUP YOUR MAC DIALOG: Confirm Policy Execution: 'rename_computer' 'None'
+2023-02-09 14:30:44 - SETUP YOUR MAC DIALOG: Confirm Policy Execution: None
+2023-02-09 14:30:45 - SETUP YOUR MAC DIALOG: Validate Policy Result: 'rename_computer' 'None'
+2023-02-09 14:30:45 - SETUP YOUR MAC DIALOG: Confirm Policy Execution: None
+2023-02-09 14:30:45 - SETUP YOUR MAC DIALOG: listitem: index: 12, status: success, statustext: Installed
+2023-02-09 14:30:45 - SETUP YOUR MAC DIALOG: progress: increment 7
+2023-02-09 14:30:45 - SETUP YOUR MAC DIALOG: Elapsed Time: 0h:0m:1s
+2023-02-09 14:30:45 - 
+
+# # #
+# SETUP YOUR MAC DIALOG: policy_array > listitem: Computer Inventory
+# # #
+
+2023-02-09 14:30:45 - SETUP YOUR MAC DIALOG: listitem: index: 13, status: wait, statustext: Installing …, 
+2023-02-09 14:30:45 - SETUP YOUR MAC DIALOG: icon: https://ics.services.jamfcloud.com/icon/hash_90958d0e1f8f8287a86a1198d21cded84eeea44886df2b3357d909fe2e6f1296
+2023-02-09 14:30:45 - SETUP YOUR MAC DIALOG: progresstext: A listing of your Mac’s apps and settings — its inventory — is sent automatically to the Jamf Pro server daily.
+2023-02-09 14:30:45 - SETUP YOUR MAC DIALOG: Confirm Policy Execution: 'recon' 'None'
+2023-02-09 14:30:45 - SETUP YOUR MAC DIALOG: Confirm Policy Execution: None
+2023-02-09 14:30:46 - SETUP YOUR MAC DIALOG: Validate Policy Result: 'recon' 'None'
+2023-02-09 14:30:46 - SETUP YOUR MAC DIALOG: Confirm Policy Execution: None
+2023-02-09 14:30:46 - SETUP YOUR MAC DIALOG: listitem: index: 13, status: success, statustext: Installed
+2023-02-09 14:30:46 - SETUP YOUR MAC DIALOG: listitem: index: 13, status: wait, statustext: Updating …, 
+2023-02-09 14:30:46 - SETUP YOUR MAC DIALOG: Updating computer inventory with the following reconOptions: "" …
+2023-02-09 14:30:46 - SETUP YOUR MAC DIALOG: DEBUG MODE: eval /usr/local/bin/jamf recon 
+2023-02-09 14:30:46 - SETUP YOUR MAC DIALOG: listitem: index: 13, status: success, statustext: Updated
+2023-02-09 14:30:46 - SETUP YOUR MAC DIALOG: progress: increment 7
+2023-02-09 14:30:46 - SETUP YOUR MAC DIALOG: Elapsed Time: 0h:0m:1s
+2023-02-09 14:30:46 - SETUP YOUR MAC DIALOG: title: Matt's Mac is ready!
+2023-02-09 14:30:46 - SETUP YOUR MAC DIALOG: icon: SF=checkmark.circle.fill,weight=bold,colour1=#00ff44,colour2=#075c1e
+2023-02-09 14:30:46 - SETUP YOUR MAC DIALOG: progresstext: Complete! Please enjoy your new Mac, Matt!
+2023-02-09 14:30:46 - SETUP YOUR MAC DIALOG: progress: complete
+2023-02-09 14:30:46 - SETUP YOUR MAC DIALOG: button1text: Close
+2023-02-09 14:30:46 - SETUP YOUR MAC DIALOG: button1: enable
+2023-02-09 14:30:46 - Exiting …
+2023-02-09 14:30:46 - De-caffeinate …
+2023-02-09 14:30:46 - Attempting to terminate the 'caffeinate' process …
+2023-02-09 14:30:46 - (Termination message indicates success.)
+2023-02-09 14:30:46 - Removing /var/tmp/dialogWelcome.xxz …
+2023-02-09 14:30:46 - Removing /var/tmp/dialogSetupYourMac.zHg …
+2023-02-09 14:30:46 - Removing /var/tmp/dialogFailure.JXi …
+2023-02-09 14:30:46 - Executing Completion Action Option: '/Library/Logs/mac_setup.log' …
+2023-02-09 14:30:46 - Run "osascript -e display dialog "Setup Your Mac is operating in Debug Mode.• completionActionOption == '/Library/Logs/mac_setup.log'" with title "Setup Your Mac: Debug Mode" buttons {"Close"} with icon note" as "502" … 
+2023-02-09 14:31:29 - 
+
+###
+# DEBUG MODE | Dialog: v2.1.0.4148 • Setup Your Mac: v1.7.0
+###
+
+2023-02-09 14:31:29 - swiftDialog version 2.1.0.4148 found; proceeding...
+2023-02-09 14:31:31 - SETUP YOUR MAC DIALOG: Total Number of Steps: 14
+2023-02-09 14:31:31 - SETUP YOUR MAC DIALOG: Progress Increment Value: 7
+2023-02-09 14:31:31 - SETUP YOUR MAC DIALOG: list: Rosetta, Code42, Crowdstrike Falcon, Enable Filevault 2, Microsoft Office 365, Zoom, Google Chrome, Slack, Google Drive, Conditional Access Tool, Crowdstrike Running Validation, Code42 Running Validation, Re-name Computer, Computer Inventory
+2023-02-09 14:31:31 - SETUP YOUR MAC DIALOG: listitem: index: 0, icon: https://ics.services.jamfcloud.com/icon/hash_8bac19160fabb0c8e7bac97b37b51d2ac8f38b7100b6357642d9505645d37b52, status: pending, statustext: Pending …
+2023-02-09 14:31:31 - SETUP YOUR MAC DIALOG: listitem: index: 1, icon: https://ics.services.jamfcloud.com/icon/hash_c6eea7e3663ad37c248dc6881ed97498048f502da8a427caefaf6d31963f3681, status: pending, statustext: Pending …
+2023-02-09 14:31:31 - SETUP YOUR MAC DIALOG: listitem: index: 2, icon: https://ics.services.jamfcloud.com/icon/hash_5dbbf8eebbecb20ac443f958bfb3aa9a44ed23ce4f49005a12b29a8f33522c8b, status: pending, statustext: Pending …
+2023-02-09 14:31:31 - SETUP YOUR MAC DIALOG: listitem: index: 3, icon: https://ics.services.jamfcloud.com/icon/hash_90958d0e1f8f8287a86a1198d21cded84eeea44886df2b3357d909fe2e6f1296, status: pending, statustext: Pending …
+2023-02-09 14:31:31 - SETUP YOUR MAC DIALOG: listitem: index: 4, icon: https://ics.services.jamfcloud.com/icon/hash_9eb046c4895aff0a12b1824134d38ec09b67bd6e809c66028c4140aae8ce32ec, status: pending, statustext: Pending …
+2023-02-09 14:31:31 - SETUP YOUR MAC DIALOG: listitem: index: 5, icon: https://ics.services.jamfcloud.com/icon/hash_be66420495a3f2f1981a49a0e0ad31783e9a789e835b4196af60554bf4c115ac, status: pending, statustext: Pending …
+2023-02-09 14:31:31 - SETUP YOUR MAC DIALOG: listitem: index: 6, icon: https://ics.services.jamfcloud.com/icon/hash_12d3d198f40ab2ac237cff3b5cb05b09f7f26966d6dffba780e4d4e5325cc701, status: pending, statustext: Pending …
+2023-02-09 14:31:31 - SETUP YOUR MAC DIALOG: listitem: index: 7, icon: https://ics.services.jamfcloud.com/icon/hash_a1ecbe1a4418113177cc061def4996d20a01a1e9b9adf9517899fcca31f3c026, status: pending, statustext: Pending …
+2023-02-09 14:31:31 - SETUP YOUR MAC DIALOG: listitem: index: 8, icon: https://ics.services.jamfcloud.com/icon/hash_a6954a50da661bd785407e23f83c6a1ac27006180eae1813086e64f4d6e65dcc, status: pending, statustext: Pending …
+2023-02-09 14:31:31 - SETUP YOUR MAC DIALOG: listitem: index: 9, icon: https://ics.services.jamfcloud.com/icon/hash_7a97c3926c07d26c111a1f5c3d11fcaeb8471f6046e7b289d67bac74669f916a, status: pending, statustext: Pending …
+2023-02-09 14:31:31 - SETUP YOUR MAC DIALOG: listitem: index: 10, icon: https://ics.services.jamfcloud.com/icon/hash_5dbbf8eebbecb20ac443f958bfb3aa9a44ed23ce4f49005a12b29a8f33522c8b, status: pending, statustext: Pending …
+2023-02-09 14:31:31 - SETUP YOUR MAC DIALOG: listitem: index: 11, icon: https://ics.services.jamfcloud.com/icon/hash_c6eea7e3663ad37c248dc6881ed97498048f502da8a427caefaf6d31963f3681, status: pending, statustext: Pending …
+2023-02-09 14:31:31 - SETUP YOUR MAC DIALOG: listitem: index: 12, icon: https://ics.services.jamfcloud.com/icon/hash_90958d0e1f8f8287a86a1198d21cded84eeea44886df2b3357d909fe2e6f1296, status: pending, statustext: Pending …
+2023-02-09 14:31:31 - SETUP YOUR MAC DIALOG: listitem: index: 13, icon: https://ics.services.jamfcloud.com/icon/hash_90958d0e1f8f8287a86a1198d21cded84eeea44886df2b3357d909fe2e6f1296, status: pending, statustext: Pending …
+2023-02-09 14:31:31 - SETUP YOUR MAC DIALOG: list: show
+2023-02-09 14:31:31 - SETUP YOUR MAC DIALOG: Initial progress bar
+2023-02-09 14:31:31 - SETUP YOUR MAC DIALOG: progress: 1
+2023-02-09 14:31:31 - WELCOME DIALOG: quit:
+2023-02-09 14:31:31 - SETUP YOUR MAC DIALOG: infobox: 
+2023-02-09 14:31:31 - 
+
+# # #
+# SETUP YOUR MAC DIALOG: policy_array > listitem: Rosetta
+# # #
+
+2023-02-09 14:31:31 - SETUP YOUR MAC DIALOG: listitem: index: 0, status: wait, statustext: Installing …, 
+2023-02-09 14:31:31 - SETUP YOUR MAC DIALOG: icon: https://ics.services.jamfcloud.com/icon/hash_8bac19160fabb0c8e7bac97b37b51d2ac8f38b7100b6357642d9505645d37b52
+2023-02-09 14:31:31 - SETUP YOUR MAC DIALOG: progresstext: Rosetta enables a Mac with Apple silicon to use apps built for a Mac with an Intel processor.
+2023-02-09 14:31:31 - SETUP YOUR MAC DIALOG: Skipping Policy Execution due to 'Local' validation
+2023-02-09 14:31:31 - SETUP YOUR MAC DIALOG: Validate Policy Result: 'install_rosetta' 'Local'
+2023-02-09 14:31:31 - SETUP YOUR MAC DIALOG: Locally Validate Policy Result: Rosetta 2 … 
+2023-02-09 14:31:31 - SETUP YOUR MAC DIALOG: listitem: index: 0, status: wait, statustext: Checking …
+2023-02-09 14:31:31 - SETUP YOUR MAC DIALOG: Locally Validate Policy Result: Rosetta 2 is installed
+2023-02-09 14:31:31 - SETUP YOUR MAC DIALOG: listitem: index: 0, status: success, statustext: Running
+2023-02-09 14:31:31 - SETUP YOUR MAC DIALOG: progress: increment 7
+2023-02-09 14:31:31 - SETUP YOUR MAC DIALOG: Elapsed Time: 0h:0m:0s
+2023-02-09 14:31:31 - 
+
+# # #
+# SETUP YOUR MAC DIALOG: policy_array > listitem: Code42
+# # #
+
+2023-02-09 14:31:31 - SETUP YOUR MAC DIALOG: listitem: index: 1, status: wait, statustext: Installing …, 
+2023-02-09 14:31:31 - SETUP YOUR MAC DIALOG: icon: https://ics.services.jamfcloud.com/icon/hash_c6eea7e3663ad37c248dc6881ed97498048f502da8a427caefaf6d31963f3681
+2023-02-09 14:31:31 - SETUP YOUR MAC DIALOG: progresstext: Install the EC Data Protection and Backup Software
+2023-02-09 14:31:31 - SETUP YOUR MAC DIALOG: Confirm Policy Execution: 'code42_arm' '/Applications/Code42.app/Contents/Info.plist'
+2023-02-09 14:31:31 - SETUP YOUR MAC DIALOG: Confirm Policy Execution: DEBUG MODE: Skipping 'run_jamf_trigger code42_arm'
+2023-02-09 14:31:32 - SETUP YOUR MAC DIALOG: Validate Policy Result: 'code42_arm' '/Applications/Code42.app/Contents/Info.plist'
+2023-02-09 14:31:32 - SETUP YOUR MAC DIALOG: Validate Policy Result: Testing for "/Applications/Code42.app/Contents/Info.plist" …
+2023-02-09 14:31:32 - SETUP YOUR MAC DIALOG: listitem: index: 1, status: success, statustext: Installed
+2023-02-09 14:31:32 - SETUP YOUR MAC DIALOG: progress: increment 7
+2023-02-09 14:31:32 - SETUP YOUR MAC DIALOG: Elapsed Time: 0h:0m:1s
+2023-02-09 14:31:32 - 
+
+# # #
+# SETUP YOUR MAC DIALOG: policy_array > listitem: Crowdstrike Falcon
+# # #
+
+2023-02-09 14:31:32 - SETUP YOUR MAC DIALOG: listitem: index: 2, status: wait, statustext: Installing …, 
+2023-02-09 14:31:32 - SETUP YOUR MAC DIALOG: icon: https://ics.services.jamfcloud.com/icon/hash_5dbbf8eebbecb20ac443f958bfb3aa9a44ed23ce4f49005a12b29a8f33522c8b
+2023-02-09 14:31:32 - SETUP YOUR MAC DIALOG: progresstext: Install The Computer Security Software
+2023-02-09 14:31:32 - SETUP YOUR MAC DIALOG: Confirm Policy Execution: 'install_crowdstrike' '/Applications/Falcon.app/Contents/Info.plist'
+2023-02-09 14:31:32 - SETUP YOUR MAC DIALOG: Confirm Policy Execution: DEBUG MODE: Skipping 'run_jamf_trigger install_crowdstrike'
+2023-02-09 14:31:32 - SETUP YOUR MAC DIALOG: Validate Policy Result: 'install_crowdstrike' '/Applications/Falcon.app/Contents/Info.plist'
+2023-02-09 14:31:32 - SETUP YOUR MAC DIALOG: Validate Policy Result: Testing for "/Applications/Falcon.app/Contents/Info.plist" …
+2023-02-09 14:31:32 - SETUP YOUR MAC DIALOG: listitem: index: 2, status: success, statustext: Installed
+2023-02-09 14:31:32 - SETUP YOUR MAC DIALOG: progress: increment 7
+2023-02-09 14:31:32 - SETUP YOUR MAC DIALOG: Elapsed Time: 0h:0m:0s
+2023-02-09 14:31:33 - 
+
+# # #
+# SETUP YOUR MAC DIALOG: policy_array > listitem: Enable Filevault 2
+# # #
+
+2023-02-09 14:31:33 - SETUP YOUR MAC DIALOG: listitem: index: 3, status: wait, statustext: Installing …, 
+2023-02-09 14:31:33 - SETUP YOUR MAC DIALOG: icon: https://ics.services.jamfcloud.com/icon/hash_90958d0e1f8f8287a86a1198d21cded84eeea44886df2b3357d909fe2e6f1296
+2023-02-09 14:31:33 - SETUP YOUR MAC DIALOG: progresstext: Install and Configure macOS FileVault 2.
+2023-02-09 14:31:33 - SETUP YOUR MAC DIALOG: Skipping Policy Execution due to 'Local' validation
+2023-02-09 14:31:33 - SETUP YOUR MAC DIALOG: Validate Policy Result: 'enable_filevault' 'Local'
+2023-02-09 14:31:33 - SETUP YOUR MAC DIALOG: Locally Validate Policy Result: Validate FileVault … 
+2023-02-09 14:31:33 - SETUP YOUR MAC DIALOG: listitem: index: 3, status: wait, statustext: Checking …
+2023-02-09 14:31:33 - SETUP YOUR MAC DIALOG: Validate Policy Result: Pausing for 5 seconds for FileVault … 
+2023-02-09 14:31:38 - SETUP YOUR MAC DIALOG: Locally Validate Policy Result: FileVault: FileVault is On.
+2023-02-09 14:31:38 - SETUP YOUR MAC DIALOG: listitem: index: 3, status: success, statustext: Enabled
+2023-02-09 14:31:38 - SETUP YOUR MAC DIALOG: progress: increment 7
+2023-02-09 14:31:38 - SETUP YOUR MAC DIALOG: Elapsed Time: 0h:0m:6s
+2023-02-09 14:31:38 - 
+
+# # #
+# SETUP YOUR MAC DIALOG: policy_array > listitem: Microsoft Office 365
+# # #
+
+2023-02-09 14:31:38 - SETUP YOUR MAC DIALOG: listitem: index: 4, status: wait, statustext: Installing …, 
+2023-02-09 14:31:38 - SETUP YOUR MAC DIALOG: icon: https://ics.services.jamfcloud.com/icon/hash_9eb046c4895aff0a12b1824134d38ec09b67bd6e809c66028c4140aae8ce32ec
+2023-02-09 14:31:38 - SETUP YOUR MAC DIALOG: progresstext: Utilize the full Microsoft 365 suite of applicaitons.
+2023-02-09 14:31:38 - SETUP YOUR MAC DIALOG: Confirm Policy Execution: 'install_365' '/Applications/Microsoft Outlook.app/Contents/Info.plist'
+2023-02-09 14:31:38 - SETUP YOUR MAC DIALOG: Confirm Policy Execution: DEBUG MODE: Skipping 'run_jamf_trigger install_365'
+2023-02-09 14:31:38 - SETUP YOUR MAC DIALOG: Validate Policy Result: 'install_365' '/Applications/Microsoft Outlook.app/Contents/Info.plist'
+2023-02-09 14:31:38 - SETUP YOUR MAC DIALOG: Validate Policy Result: Testing for "/Applications/Microsoft Outlook.app/Contents/Info.plist" …
+2023-02-09 14:31:38 - SETUP YOUR MAC DIALOG: listitem: index: 4, status: success, statustext: Installed
+2023-02-09 14:31:38 - SETUP YOUR MAC DIALOG: progress: increment 7
+2023-02-09 14:31:38 - SETUP YOUR MAC DIALOG: Elapsed Time: 0h:0m:0s
+2023-02-09 14:31:39 - 
+
+# # #
+# SETUP YOUR MAC DIALOG: policy_array > listitem: Zoom
+# # #
+
+2023-02-09 14:31:39 - SETUP YOUR MAC DIALOG: listitem: index: 5, status: wait, statustext: Installing …, 
+2023-02-09 14:31:39 - SETUP YOUR MAC DIALOG: icon: https://ics.services.jamfcloud.com/icon/hash_be66420495a3f2f1981a49a0e0ad31783e9a789e835b4196af60554bf4c115ac
+2023-02-09 14:31:39 - SETUP YOUR MAC DIALOG: progresstext: Zoom is a videotelephony software program developed by Zoom Video Communications.
+2023-02-09 14:31:39 - SETUP YOUR MAC DIALOG: Confirm Policy Execution: 'install_zoom' '/Applications/zoom.us.app/Contents/Info.plist'
+2023-02-09 14:31:39 - SETUP YOUR MAC DIALOG: Confirm Policy Execution: DEBUG MODE: Skipping 'run_jamf_trigger install_zoom'
+2023-02-09 14:31:39 - SETUP YOUR MAC DIALOG: Validate Policy Result: 'install_zoom' '/Applications/zoom.us.app/Contents/Info.plist'
+2023-02-09 14:31:39 - SETUP YOUR MAC DIALOG: Validate Policy Result: Testing for "/Applications/zoom.us.app/Contents/Info.plist" …
+2023-02-09 14:31:39 - SETUP YOUR MAC DIALOG: listitem: index: 5, status: success, statustext: Installed
+2023-02-09 14:31:39 - SETUP YOUR MAC DIALOG: progress: increment 7
+2023-02-09 14:31:39 - SETUP YOUR MAC DIALOG: Elapsed Time: 0h:0m:1s
+2023-02-09 14:31:39 - 
+
+# # #
+# SETUP YOUR MAC DIALOG: policy_array > listitem: Google Chrome
+# # #
+
+2023-02-09 14:31:39 - SETUP YOUR MAC DIALOG: listitem: index: 6, status: wait, statustext: Installing …, 
+2023-02-09 14:31:39 - SETUP YOUR MAC DIALOG: icon: https://ics.services.jamfcloud.com/icon/hash_12d3d198f40ab2ac237cff3b5cb05b09f7f26966d6dffba780e4d4e5325cc701
+2023-02-09 14:31:39 - SETUP YOUR MAC DIALOG: progresstext: Browse the Internet with ease
+2023-02-09 14:31:39 - SETUP YOUR MAC DIALOG: Confirm Policy Execution: 'install_google_chrome' '/Applications/Google Chrome.app/Contents/Info.plist'
+2023-02-09 14:31:39 - SETUP YOUR MAC DIALOG: Confirm Policy Execution: DEBUG MODE: Skipping 'run_jamf_trigger install_google_chrome'
+2023-02-09 14:31:40 - SETUP YOUR MAC DIALOG: Validate Policy Result: 'install_google_chrome' '/Applications/Google Chrome.app/Contents/Info.plist'
+2023-02-09 14:31:40 - SETUP YOUR MAC DIALOG: Validate Policy Result: Testing for "/Applications/Google Chrome.app/Contents/Info.plist" …
+2023-02-09 14:31:40 - SETUP YOUR MAC DIALOG: listitem: index: 6, status: success, statustext: Installed
+2023-02-09 14:31:40 - SETUP YOUR MAC DIALOG: progress: increment 7
+2023-02-09 14:31:40 - SETUP YOUR MAC DIALOG: Elapsed Time: 0h:0m:1s
+2023-02-09 14:31:40 - 
+
+# # #
+# SETUP YOUR MAC DIALOG: policy_array > listitem: Slack
+# # #
+
+2023-02-09 14:31:40 - SETUP YOUR MAC DIALOG: listitem: index: 7, status: wait, statustext: Installing …, 
+2023-02-09 14:31:40 - SETUP YOUR MAC DIALOG: icon: https://ics.services.jamfcloud.com/icon/hash_a1ecbe1a4418113177cc061def4996d20a01a1e9b9adf9517899fcca31f3c026
+2023-02-09 14:31:40 - SETUP YOUR MAC DIALOG: progresstext: Install Slack Messaging System
+2023-02-09 14:31:40 - SETUP YOUR MAC DIALOG: Confirm Policy Execution: 'install_slack' '/Applications/Slack.app/Contents/Info.plist'
+2023-02-09 14:31:40 - SETUP YOUR MAC DIALOG: Confirm Policy Execution: DEBUG MODE: Skipping 'run_jamf_trigger install_slack'
+2023-02-09 14:31:41 - SETUP YOUR MAC DIALOG: Validate Policy Result: 'install_slack' '/Applications/Slack.app/Contents/Info.plist'
+2023-02-09 14:31:41 - SETUP YOUR MAC DIALOG: Validate Policy Result: Testing for "/Applications/Slack.app/Contents/Info.plist" …
+2023-02-09 14:31:41 - SETUP YOUR MAC DIALOG: listitem: index: 7, status: success, statustext: Installed
+2023-02-09 14:31:41 - SETUP YOUR MAC DIALOG: progress: increment 7
+2023-02-09 14:31:41 - SETUP YOUR MAC DIALOG: Elapsed Time: 0h:0m:1s
+2023-02-09 14:31:41 - 
+
+# # #
+# SETUP YOUR MAC DIALOG: policy_array > listitem: Google Drive
+# # #
+
+2023-02-09 14:31:41 - SETUP YOUR MAC DIALOG: listitem: index: 8, status: wait, statustext: Installing …, 
+2023-02-09 14:31:41 - SETUP YOUR MAC DIALOG: icon: https://ics.services.jamfcloud.com/icon/hash_a6954a50da661bd785407e23f83c6a1ac27006180eae1813086e64f4d6e65dcc
+2023-02-09 14:31:41 - SETUP YOUR MAC DIALOG: progresstext: The Preferred Cloud Storage Of The Collective.
+2023-02-09 14:31:41 - SETUP YOUR MAC DIALOG: Confirm Policy Execution: 'install_google_drive' '/Applications/Google Drive.app/Contents/Info.plist'
+2023-02-09 14:31:41 - SETUP YOUR MAC DIALOG: Confirm Policy Execution: DEBUG MODE: Skipping 'run_jamf_trigger install_google_drive'
+2023-02-09 14:31:42 - SETUP YOUR MAC DIALOG: Validate Policy Result: 'install_google_drive' '/Applications/Google Drive.app/Contents/Info.plist'
+2023-02-09 14:31:42 - SETUP YOUR MAC DIALOG: Validate Policy Result: Testing for "/Applications/Google Drive.app/Contents/Info.plist" …
+2023-02-09 14:31:42 - SETUP YOUR MAC DIALOG: listitem: index: 8, status: success, statustext: Installed
+2023-02-09 14:31:42 - SETUP YOUR MAC DIALOG: progress: increment 7
+2023-02-09 14:31:42 - SETUP YOUR MAC DIALOG: Elapsed Time: 0h:0m:1s
+2023-02-09 14:31:42 - 
+
+# # #
+# SETUP YOUR MAC DIALOG: policy_array > listitem: Conditional Access Tool
+# # #
+
+2023-02-09 14:31:42 - SETUP YOUR MAC DIALOG: listitem: index: 9, status: wait, statustext: Installing …, 
+2023-02-09 14:31:42 - SETUP YOUR MAC DIALOG: icon: https://ics.services.jamfcloud.com/icon/hash_7a97c3926c07d26c111a1f5c3d11fcaeb8471f6046e7b289d67bac74669f916a
+2023-02-09 14:31:42 - SETUP YOUR MAC DIALOG: progresstext: Ensure that Collective data is accessed by approved devices.
+2023-02-09 14:31:42 - SETUP YOUR MAC DIALOG: Skipping Policy Execution due to 'Local' validation
+2023-02-09 14:31:42 - SETUP YOUR MAC DIALOG: Validate Policy Result: 'okta_cba_arm' 'Local'
+2023-02-09 14:31:42 - SETUP YOUR MAC DIALOG: Locally Validate Policy Result: Validate CBA … 
+2023-02-09 14:31:42 - SETUP YOUR MAC DIALOG: listitem: index: 9, status: wait, statustext: Checking …
+2023-02-09 14:31:42 - SETUP YOUR MAC DIALOG: Validate Policy Result: Pausing for 5 seconds for CBA … 
+2023-02-09 14:31:47 - SETUP YOUR MAC DIALOG: Locally Validate Policy Result: CBA: CBA is Installed.
+2023-02-09 14:31:47 - SETUP YOUR MAC DIALOG: listitem: index: 9, status: success, statustext: Enabled
+2023-02-09 14:31:47 - SETUP YOUR MAC DIALOG: progress: increment 7
+2023-02-09 14:31:47 - SETUP YOUR MAC DIALOG: Elapsed Time: 0h:0m:5s
+2023-02-09 14:31:47 - 
+
+# # #
+# SETUP YOUR MAC DIALOG: policy_array > listitem: Crowdstrike Running Validation
+# # #
+
+2023-02-09 14:31:47 - SETUP YOUR MAC DIALOG: listitem: index: 10, status: wait, statustext: Installing …, 
+2023-02-09 14:31:47 - SETUP YOUR MAC DIALOG: icon: https://ics.services.jamfcloud.com/icon/hash_5dbbf8eebbecb20ac443f958bfb3aa9a44ed23ce4f49005a12b29a8f33522c8b
+2023-02-09 14:31:47 - SETUP YOUR MAC DIALOG: progresstext: Verify that the Crowdstrike Falcon agent is running
+2023-02-09 14:31:47 - SETUP YOUR MAC DIALOG: Skipping Policy Execution due to 'Remote' validation
+2023-02-09 14:31:47 - SETUP YOUR MAC DIALOG: Validate Policy Result: 'crowdstrike_validation' 'Remote'
+2023-02-09 14:31:47 - SETUP YOUR MAC DIALOG: DEBUG MODE: Remotely Confirm Policy Execution: Skipping 'run_jamf_trigger crowdstrike_validation'
+2023-02-09 14:31:47 - SETUP YOUR MAC DIALOG: listitem: index: 10, status: error, statustext: Debug Mode Enabled
+2023-02-09 14:31:48 - SETUP YOUR MAC DIALOG: progress: increment 7
+2023-02-09 14:31:48 - SETUP YOUR MAC DIALOG: Elapsed Time: 0h:0m:1s
+2023-02-09 14:31:48 - 
+
+# # #
+# SETUP YOUR MAC DIALOG: policy_array > listitem: Code42 Running Validation
+# # #
+
+2023-02-09 14:31:48 - SETUP YOUR MAC DIALOG: listitem: index: 11, status: wait, statustext: Installing …, 
+2023-02-09 14:31:48 - SETUP YOUR MAC DIALOG: icon: https://ics.services.jamfcloud.com/icon/hash_c6eea7e3663ad37c248dc6881ed97498048f502da8a427caefaf6d31963f3681
+2023-02-09 14:31:48 - SETUP YOUR MAC DIALOG: progresstext: Verify that the Code42 agent is running
+2023-02-09 14:31:48 - SETUP YOUR MAC DIALOG: Skipping Policy Execution due to 'Remote' validation
+2023-02-09 14:31:48 - SETUP YOUR MAC DIALOG: Validate Policy Result: 'code42_validate' 'Remote'
+2023-02-09 14:31:48 - SETUP YOUR MAC DIALOG: DEBUG MODE: Remotely Confirm Policy Execution: Skipping 'run_jamf_trigger code42_validate'
+2023-02-09 14:31:48 - SETUP YOUR MAC DIALOG: listitem: index: 11, status: error, statustext: Debug Mode Enabled
+2023-02-09 14:31:49 - SETUP YOUR MAC DIALOG: progress: increment 7
+2023-02-09 14:31:49 - SETUP YOUR MAC DIALOG: Elapsed Time: 0h:0m:1s
+2023-02-09 14:31:49 - 
+
+# # #
+# SETUP YOUR MAC DIALOG: policy_array > listitem: Re-name Computer
+# # #
+
+2023-02-09 14:31:49 - SETUP YOUR MAC DIALOG: listitem: index: 12, status: wait, statustext: Installing …, 
+2023-02-09 14:31:49 - SETUP YOUR MAC DIALOG: icon: https://ics.services.jamfcloud.com/icon/hash_90958d0e1f8f8287a86a1198d21cded84eeea44886df2b3357d909fe2e6f1296
+2023-02-09 14:31:49 - SETUP YOUR MAC DIALOG: progresstext: A listing of your Mac’s apps and settings — its inventory — is sent automatically to the Jamf Pro server daily.
+2023-02-09 14:31:49 - SETUP YOUR MAC DIALOG: Confirm Policy Execution: 'rename_computer' 'None'
+2023-02-09 14:31:49 - SETUP YOUR MAC DIALOG: Confirm Policy Execution: None
+2023-02-09 14:31:49 - SETUP YOUR MAC DIALOG: Validate Policy Result: 'rename_computer' 'None'
+2023-02-09 14:31:49 - SETUP YOUR MAC DIALOG: Confirm Policy Execution: None
+2023-02-09 14:31:49 - SETUP YOUR MAC DIALOG: listitem: index: 12, status: success, statustext: Installed
+2023-02-09 14:31:49 - SETUP YOUR MAC DIALOG: progress: increment 7
+2023-02-09 14:31:49 - SETUP YOUR MAC DIALOG: Elapsed Time: 0h:0m:0s
+2023-02-09 14:31:49 - 
+
+# # #
+# SETUP YOUR MAC DIALOG: policy_array > listitem: Computer Inventory
+# # #
+
+2023-02-09 14:31:49 - SETUP YOUR MAC DIALOG: listitem: index: 13, status: wait, statustext: Installing …, 
+2023-02-09 14:31:49 - SETUP YOUR MAC DIALOG: icon: https://ics.services.jamfcloud.com/icon/hash_90958d0e1f8f8287a86a1198d21cded84eeea44886df2b3357d909fe2e6f1296
+2023-02-09 14:31:49 - SETUP YOUR MAC DIALOG: progresstext: A listing of your Mac’s apps and settings — its inventory — is sent automatically to the Jamf Pro server daily.
+2023-02-09 14:31:50 - SETUP YOUR MAC DIALOG: Confirm Policy Execution: 'recon' 'None'
+2023-02-09 14:31:50 - SETUP YOUR MAC DIALOG: Confirm Policy Execution: None
+2023-02-09 14:31:50 - SETUP YOUR MAC DIALOG: Validate Policy Result: 'recon' 'None'
+2023-02-09 14:31:50 - SETUP YOUR MAC DIALOG: Confirm Policy Execution: None
+2023-02-09 14:31:50 - SETUP YOUR MAC DIALOG: listitem: index: 13, status: success, statustext: Installed
+2023-02-09 14:31:50 - SETUP YOUR MAC DIALOG: listitem: index: 13, status: wait, statustext: Updating …, 
+2023-02-09 14:31:50 - SETUP YOUR MAC DIALOG: Updating computer inventory with the following reconOptions: "" …
+2023-02-09 14:31:50 - SETUP YOUR MAC DIALOG: DEBUG MODE: eval /usr/local/bin/jamf recon 
+2023-02-09 14:31:50 - SETUP YOUR MAC DIALOG: listitem: index: 13, status: success, statustext: Updated
+2023-02-09 14:31:50 - SETUP YOUR MAC DIALOG: progress: increment 7
+2023-02-09 14:31:50 - SETUP YOUR MAC DIALOG: Elapsed Time: 0h:0m:1s
+2023-02-09 14:31:50 - SETUP YOUR MAC DIALOG: title: Matt's Mac is ready!
+2023-02-09 14:31:50 - SETUP YOUR MAC DIALOG: icon: SF=checkmark.circle.fill,weight=bold,colour1=#00ff44,colour2=#075c1e
+2023-02-09 14:31:50 - SETUP YOUR MAC DIALOG: progresstext: Complete! Please enjoy your new Mac, Matt!
+2023-02-09 14:31:50 - SETUP YOUR MAC DIALOG: progress: complete
+2023-02-09 14:31:50 - SETUP YOUR MAC DIALOG: button1text: Close
+2023-02-09 14:31:50 - SETUP YOUR MAC DIALOG: button1: enable
+2023-02-09 14:31:50 - Exiting …
+2023-02-09 14:31:50 - De-caffeinate …
+2023-02-09 14:31:50 - Attempting to terminate the 'caffeinate' process …
+2023-02-09 14:31:50 - (Termination message indicates success.)
+2023-02-09 14:31:50 - Removing /var/tmp/dialogWelcome.vvO …
+2023-02-09 14:31:50 - Removing /var/tmp/dialogSetupYourMac.cTe …
+2023-02-09 14:31:50 - Removing /var/tmp/dialogFailure.ocu …
+2023-02-09 14:31:50 - Executing Completion Action Option: '/Library/Logs/mac_setup.log' …
+2023-02-09 14:31:50 - Run "osascript -e display dialog "Setup Your Mac is operating in Debug Mode.• completionActionOption == '/Library/Logs/mac_setup.log'" with title "Setup Your Mac: Debug Mode" buttons {"Close"} with icon note" as "502" … 

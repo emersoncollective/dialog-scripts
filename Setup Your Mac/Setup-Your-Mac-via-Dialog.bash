@@ -30,9 +30,9 @@
 scriptVersion="1.7.0"
 export PATH=/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin/
 scriptLog="${4:-"/Library/Logs/EC/com.ECComputerSetup.log"}"                    # Your organization's default location for client-side logs
-debugMode="${5:-"true"}"                                                 # [ true | verbose (default) | false ]
+debugMode="${5:-"false"}"                                                 # [ true | verbose (default) | false ]
 welcomeDialog="${6:-"false"}"                                                # [ true (default) | false ]
-completionActionOption="${7:-"Restart Attended"}"                           # [ wait | sleep (with seconds) | Shut Down | Shut Down Attended | Shut Down Confirm | Restart | Restart Attended (default) | Restart Confirm | Log Out | Log Out Attended | Log Out Confirm ]
+completionActionOption="${7:-"wait"}"                           # [ wait | sleep (with seconds) | Shut Down | Shut Down Attended | Shut Down Confirm | Restart | Restart Attended (default) | Restart Confirm | Log Out | Log Out Attended | Log Out Confirm ]
 requiredMinimumBuild="${8:-"22D"}"                                          # Your organization's required minimum build of macOS to allow users to proceed
 outdatedOsAction=${9:-"/System/Library/CoreServices/Software Update.app"}   # Jamf Pro Self Service policy for operating system ugprades (i.e., "jamfselfservice://content?entity=policy&id=117&action=view") 
 reconOptions=""                                                             # Initialize dynamic recon options; built based on user's input at Welcome dialog
@@ -53,6 +53,20 @@ else
     fi
     sudo touch /Library/Logs/EC/com.ECComputerSetup.log
 fi
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+#
+# Check for Swift Dialog
+#
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+
+
+if ! [ -x "$(command -v dialog)" ]; then
+    echo 'Error: dialog is not installed.' >&2
+    jamf policy -trigger install_swift_dialog
+else
+    echo 'Swift dialog is installed.'
+fi
+
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 #
@@ -506,7 +520,7 @@ policy_array=('
             "progresstext": "Install the EC Data Protection and Backup Software",
             "trigger_list": [
                 {
-                    "trigger": "'code42_${type}'",
+                    "trigger": "install_code42",
                     "validation": "/Applications/Code42.app/Contents/Info.plist"
                 }
             ]
@@ -533,7 +547,7 @@ policy_array=('
         },
         {
             "listitem": "Microsoft Office 365",
-            "icon": "f9ba35bd55488783456d64ec73372f029560531ca10dfa0e8154a46d7732b913",
+            "icon": "9eb046c4895aff0a12b1824134d38ec09b67bd6e809c66028c4140aae8ce32ec",
             "progresstext": "Utilize the full Microsoft 365 suite of applicaitons.",
             "trigger_list": [
                 {
@@ -1105,9 +1119,9 @@ function validatePolicyResult() {
                             jamfProPolicyNameFailures+="• $listitem  \n"
                         fi
                     else
-                        # Inelligible
+                        # Ineligible
                         updateScriptLog "SETUP YOUR MAC DIALOG: Locally Validate Policy Result: Rosetta 2 is not applicable"
-                        dialogUpdateSetupYourMac "listitem: index: $i, status: error, statustext: Inelligible"
+                        dialogUpdateSetupYourMac "listitem: index: $i, status: error, statustext: Ineligible"
                     fi
                 ;;
                 enable_filevault )
