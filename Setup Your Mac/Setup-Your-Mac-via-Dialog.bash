@@ -339,12 +339,17 @@ jamfBinary="/usr/local/bin/jamf"
 # "Welcome" dialog Title, Message and Icon
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
+<<<<<<< HEAD
 welcomeTitle="Welcome to your new Mac, ${loggedInUserFirstname}!"
 welcomeMessage="Please enter your Mac's **Asset Tag**, select your preferred **Configuration** then click **Continue** to start applying settings to your new Mac.  \n\nOnce completed, the **Wait** button will be enabled and you'll be able to review the results before restarting your Mac.  \n\nIf you need assistance, please contact the Help Desk: +1 (801) 555-1212.  \n\n---  \n\n#### Configurations  \n- **Required:** Minimum organization apps  \n- **Recommended:** Required apps and Microsoft Office  \n- **Complete:** Recommended apps, Adobe Acrobat Reader and Google Chrome"
 welcomeBannerImage="https://img.freepik.com/free-photo/yellow-watercolor-paper_95678-446.jpg"
 welcomeBannerText="Welcome to your new Mac, ${loggedInUserFirstname}!"
 welcomeCaption="Please review the above video, then click Continue."
 welcomeVideoID="vimeoid=803933536"
+=======
+welcomeTitle="Welcome to the Collective, ${loggedInUserFirstname}!"
+welcomeMessage="To begin, please select 'OK' and the computer setup process will begin. If you need assistance, please email ithelp@emersoncollective.com. The process will begin in 5 minutes automatically"
+>>>>>>> 775c198 (customized for EC)
 
 # Welcome icon set to either light or dark, based on user's Apperance setting (thanks, @mm2270!)
 appleInterfaceStyle=$( /usr/bin/defaults read /Users/"${loggedInUser}"/Library/Preferences/.GlobalPreferences.plist AppleInterfaceStyle 2>&1 )
@@ -356,6 +361,7 @@ fi
 
 
 
+<<<<<<< HEAD
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # "Welcome" Video Settings and Features
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
@@ -451,6 +457,104 @@ welcomeJSON='{
     ],
     "height" : "725"
 }'
+=======
+## # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+## "Welcome" JSON (thanks, @bartreardon!)
+## # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+#"title" : "Welcome To The Collective",
+#"message" : "'"${welcomeMessage}"'",
+#"icon" : '/Library/EC/logo.png',
+#"iconsize" : "198.0",
+#"button1text" : "Continue",
+#"button2text" : "Get Help",
+#"infotext" : "'"${scriptVersion}"'",
+#"blurscreen" : "false",
+#"ontop" : "true",
+#"titlefont" : "size=26",
+#"messagefont" : "size=16",
+#welcomeJSON='{
+#   "title" : "'"${welcomeTitle}"'",
+#   "message" : "'"${welcomeMessage}"'",
+#   "icon" : '/Library/EC/logo.png',
+#   "iconsize" : "198.0",
+#   "button1text" : "Continue",
+#   "button2text" : "Get Help",
+#   "infotext" : "'"${scriptVersion}"'",
+#   "blurscreen" : "false",
+#   "ontop" : "true",
+#   "titlefont" : "size=26",
+#   "messagefont" : "size=16",
+#   "textfield" : [
+#       {   "title" : "Comment",
+#           "required" : false,
+#           "prompt" : "Enter a comment",
+#           "editor" : true
+#       },
+#       {   "title" : "Computer Name",
+#           "required" : false,
+#           "prompt" : "Computer Name"
+#       },
+#       {   "title" : "User Name",
+#           "required" : false,
+#           "prompt" : "User Name"
+#       },
+#       {   "title" : "Asset Tag",
+#           "required" : true,
+#           "prompt" : "Please enter the seven-digit Asset Tag",
+#           "regex" : "^(AP|IP)?[0-9]{7,}$",
+#           "regexerror" : "Please enter (at least) seven digits for the Asset Tag, optionally preceed by either AP or IP."
+#       }
+#   ],
+# "selectitems" : [
+#       {   "title" : "Department",
+#           "default" : "Please select your department",
+#           "values" : [
+#               "Please select your department",
+#               "Asset Management",
+#               "Australia Area Office",
+#               "Board of Directors",
+#               "Business Development",
+#               "Corporate Communications",
+#               "Creative Services",
+#               "Customer Service / Customer Experience",
+#               "Engineering",
+#               "Finance / Accounting",
+#               "General Management",
+#               "Human Resources",
+#               "Information Technology / Technology",
+#               "Investor Relations",
+#               "Legal",
+#               "Marketing",
+#               "Operations",
+#               "Product Management",
+#               "Production",
+#               "Project Management Office",
+#               "Purchasing / Sourcing",
+#               "Quality Assurance",
+#               "Risk Management",
+#               "Sales",
+#               "Strategic Initiatives & Programs",
+#               "Technology"
+#           ]
+#       },
+#       {   "title" : "Select B",
+#           "values" : [
+#               "B1",
+#               "B2",
+#               "B3"
+#           ]
+#       },
+#       {   "title" : "Select C",
+#           "values" : [
+#               "C1",
+#               "C2",
+#               "C3"
+#           ]
+#       }
+#   ],
+#   "height" : "635"
+#}'
+>>>>>>> 775c198 (customized for EC)
 
 
 
@@ -508,8 +612,6 @@ dialogSetupYourMacCMD="$dialogBinary \
 --messagefont 'size=14' \
 --height '780' \
 --position 'centre' \
---blurscreen \
---ontop \
 --overlayicon \"$overlayicon\" \
 --quitkey k \
 --commandfile \"$setupYourMacCommandFile\" "
@@ -1065,8 +1167,135 @@ function policyJSONConfiguration() {
 
     esac
 
-}
+<<<<<<< HEAD
+=======
+policy_array=('
+{
+    "steps": [
+        {
+            "listitem": "Install Rosetta",
+            "icon": "0db9d24f6393b42c0299708b26ce756789fa2437ed24df4f25dcf67d95eb443c",
+            "progresstext": "Install Rosetta 2.",
+            "trigger_list": [
+                {
+                    "trigger": "install_rosetta",
+                    "path": ""
+                }
+            ]
+        },
+        {
+            "listitem": "Microsoft Office 365",
+            "icon": "46ef03648ff5d1e4c12530e766bff4d8d3d3c6d2ab933045348c79795aee8bc6",
+            "progresstext": "Utilize the full Microsoft 365 suite of applicaitons.",
+            "trigger_list": [
+                {
+                    "trigger": "install_365",
+                    "path": ""
+                }
+            ]
+        },
+        {
+            "listitem": "Zoom",
+            "icon": "be66420495a3f2f1981a49a0e0ad31783e9a789e835b4196af60554bf4c115ac",
+            "progresstext": "Zoom is a videotelephony software program developed by Zoom Video Communications.",
+            "trigger_list": [
+                {
+                    "trigger": "install_zoom",
+                    "path": ""
+                }
+            ]
+        },
+        {
+            "listitem": "Google Chrome",
+            "icon": "12d3d198f40ab2ac237cff3b5cb05b09f7f26966d6dffba780e4d4e5325cc701",
+            "progresstext": "Google Chrome is a browser that combines a minimal design with sophisticated technology to make the Web faster.",
+            "trigger_list": [
+                {
+                    "trigger": "install_google_chrome",
+                    "path": "/Applications/Google Chrome.app/Contents/Info.plist"
+                }
+            ]
+        },
 
+        {
+            "listitem": "Re-name Computer",
+            "icon": "90958d0e1f8f8287a86a1198d21cded84eeea44886df2b3357d909fe2e6f1296",
+            "progresstext": "A listing of your Mac’s apps and settings — its inventory — is sent automatically to the Jamf Pro server daily.",
+            "trigger_list": [
+                {
+                    "trigger": "rename_computer",
+                    "path": ""
+                }
+            ]
+        },
+        {
+            "listitem": "Computer Inventory",
+            "icon": "90958d0e1f8f8287a86a1198d21cded84eeea44886df2b3357d909fe2e6f1296",
+            "progresstext": "A listing of your Mac’s apps and settings — its inventory — is sent automatically to the Jamf Pro server daily.",
+            "trigger_list": [
+                {
+                    "trigger": "run_recon",
+                    "path": ""
+                }
+            ]
+        },       
+        {
+            "listitem": "Install Code42",
+            "icon": "c6eea7e3663ad37c248dc6881ed97498048f502da8a427caefaf6d31963f3681",
+            "progresstext": "Install The Computer Backup System",
+            "trigger_list": [
+                {
+                    "trigger": "code42_${type}",
+                    "path": ""
+                }
+            ]
+        },{
+            "listitem": "Install Crowdstrike Falcon",
+            "icon": "5dbbf8eebbecb20ac443f958bfb3aa9a44ed23ce4f49005a12b29a8f33522c8b",
+            "progresstext": "Install The Computer Security Software",
+            "trigger_list": [
+                {
+                    "trigger": "install_crowdstrike",
+                    "path": ""
+                }
+            ]
+        },
+        {
+            "listitem": "Enable Filevault 2",
+            "icon": "90958d0e1f8f8287a86a1198d21cded84eeea44886df2b3357d909fe2e6f1296",
+            "progresstext": "Install and Configure macOS FileVault 2.",
+            "trigger_list": [
+                {
+                    "trigger": "enable_filevault",
+                    "path": ""
+                }
+            ]
+        },        
+        {
+            "listitem": "Install Slack",
+            "icon": "a1ecbe1a4418113177cc061def4996d20a01a1e9b9adf9517899fcca31f3c026",
+            "progresstext": "The Preferred Communication Platform Of The Collective.",
+            "trigger_list": [
+                {
+                    "trigger": "install_slack",
+                    "path": ""
+                }
+            ]
+        },        
+        {
+            "listitem": "Install Google Drive",
+            "icon": "a6954a50da661bd785407e23f83c6a1ac27006180eae1813086e64f4d6e65dcc",
+            "progresstext": "The Preferred Cloud Storage Of The Collective.",
+            "trigger_list": [
+                {
+                    "trigger": "install_google_drive",
+                    "path": ""
+                }
+            ]
+        }
+    ]
+>>>>>>> 775c198 (customized for EC)
+}
 
 
 ####################################################################################################
